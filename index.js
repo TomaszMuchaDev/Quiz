@@ -4,6 +4,7 @@ const btnHome = document.getElementById("btnHome");
 const pointsMessage = document.getElementById("pointsMessage");
 const nameInput = document.getElementById("nameInput");
 const btnHowToPlayPage = document.getElementById("btnHowToPlay");
+const btnAbout = document.getElementById("btnAbout");
 
 let name;
 
@@ -25,12 +26,17 @@ let name;
     }
 // all other pages
     else {
-        const player = localStorage.getItem("player");
-        pointsMessage.innerText = `${player}`;
+        // const player = localStorage.getItem("player");
+        // pointsMessage.innerText = `${player}`;
     }
 
 if(btnHowToPlayPage){
     btnHowToPlayPage.addEventListener("click", handleHowToPlayRedirection);
+}
+
+
+if(btnAbout){
+    btnAbout.addEventListener("click", handleAboutRedirection);
 }
 
 function handleLogin() {
@@ -51,5 +57,9 @@ function handleHome() {
     }
 
 function handleHowToPlayRedirection (){
+    window.location.href = "./index.html";
+}
+
+function handleAboutRedirection (){
     window.location.href = "./index.html";
 }
