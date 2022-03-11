@@ -1,12 +1,16 @@
 :root{
-    --main-bg-color: #F1FAEE;
+    --main-bg-color: #a5f8d3;
     --secondary-bg-color: #457B9D;
+    --links-bg-color: #315C77;
     --font-color-buttons: #ffffff;
     --font-color-text: #335F7B;
-    --button-bg-color: #D80032;
+    --button-bg-color: #ff004b;
     --button-border-color: #000000;
     --info-elements-color: #9EF01A;
-
+    --info-font-color:#000000;
+    --card-bg-color: #ffffff;
+    --shadow-color: #4b4b4b;
+    --header-footer-border-color: #000000;
 }
 
 body{
@@ -18,20 +22,192 @@ body{
 footer, header{
     background-color: var(--secondary-bg-color);
     color: var(--font-color-buttons);
-    height: 50px;
-    width: 100vw;
+    min-height: 50px;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
- section{
-    background-color: var(--main-bg-color);
-    height: 600px;
+header{
+    border-bottom: var(--header-footer-border-color) solid 1px;
+}
+
+footer{
+    border-top: var(--header-footer-border-color) solid 1px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#pointsMessage, #footerMessage{
+    padding-right: 40px;
+}
+
+a{
+    background-color: var(--links-bg-color);
+    color: var(--font-color-buttons);
+    text-decoration: none;
+    min-height: 40px;
+    min-width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+ main{
+     background-color: var(--main-bg-color);
+     min-height: 90vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     align-items: center;
  }
 
- button{
+
+ section, .sectionInfo{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     min-height: 40vh;
+ }
+
+.resultCenterElement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sectionRegions, .sectionCountries{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+.sectionInfo{
+
+}
+
+ input{
+     min-height: 40px;
+     min-width: 280px;
+     font-size: 1.2rem;
+     border: var(--button-border-color) solid 1px;
+     border-radius: 5px;
+     box-shadow: 0 8px 8px -4px var(--shadow-color);
+ }
+
+a, .regionCard, .regionCardClicked, .countryCard,
+.countryCardClicked, .asideInfoFact, .infoArticle{
+    border: var(--button-border-color) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px -4px var(--shadow-color);
+}
+
+
+ .regionCard, .regionCardClicked, .countryCard,
+ .countryCardClicked, .infoArticle{
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+     padding-top: 20px;
+     background-color: var(--card-bg-color);
+ }
+
+ .regionCard, .regionCardClicked{
+     min-width: 200px;
+     min-height: 260px;
+     margin: 20px;
+ }
+
+
+ .regionCardClicked, .countryCardClicked{
+     border: var(--button-bg-color) solid 3px;
+     box-shadow: 0 8px 8px -4px var(--button-bg-color);
+ }
+
+.imgRegion{
+    height: 180px;
+    width: 180px;
+}
+
+.countryCard, .countryCardClicked{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.imgCountry{
+    height: 180px;
+    width: 280px;
+}
+
+
+button{
      background-color: var(--button-bg-color);
      color: var(--font-color-buttons);
-     height: 40px;
-     width: 120px;
+     height: 60px;
+     width: 140px;
+     font-size: 1.2em;
+     font-weight: bold;
      border: var(--button-border-color) solid 1px;
-     border-radius: 2px;
+     border-radius: 5px;
+     box-shadow: 0 8px 8px -4px var(--shadow-color);
+ }
+
+
+.btnInfo, .asideInfoFact{
+    background-color: var(--info-elements-color);
+    color: var(--info-font-color);
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.infoArticle{
+    width: 400px;
+    height: auto;
+}
+
+.asideInfoFact{
+    height: 300px;
+    width: 400px;
+    border: var(--button-border-color) solid 1px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.buttonsBottomRow, .buttonBottom{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttonBottom{
+    justify-content: center;
+}
+
+button:hover, .regionCard:hover, .countryCard:hover{
+     cursor: pointer;
  }
