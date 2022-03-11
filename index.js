@@ -5,6 +5,7 @@ const pointsMessage = document.getElementById("pointsMessage");
 const nameInput = document.getElementById("nameInput");
 const btnHowToPlayPage = document.getElementById("btnHowToPlay");
 const btnAbout = document.getElementById("btnAbout");
+const btnScore = document.getElementById("btnScore");
 
 let name;
 
@@ -39,6 +40,11 @@ if(btnAbout){
     btnAbout.addEventListener("click", handleAboutRedirection);
 }
 
+
+if(btnScore){
+    btnScore.addEventListener("click", handleScoreRedirection)
+}
+
 function handleLogin() {
        const userFromLocalStorage = localStorage.getItem(name);
        if(userFromLocalStorage)
@@ -62,4 +68,8 @@ function handleHowToPlayRedirection (){
 
 function handleAboutRedirection (){
     window.location.href = "./index.html";
+}
+
+function handleScoreRedirection (){
+    window.location.href = "./chooseRegion.html";
 }
