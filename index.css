@@ -1,0 +1,37 @@
+:root{
+    --main-bg-color: #F1FAEE;
+    --secondary-bg-color: #457B9D;
+    --font-color-buttons: #ffffff;
+    --font-color-text: #335F7B;
+    --button-bg-color: #D80032;
+    --button-border-color: #000000;
+    --info-elements-color: #9EF01A;
+
+}
+
+body{
+    background-color: var(--secondary-bg-color);
+    color: var(--font-color-text);
+    margin: 0;
+}
+
+footer, header{
+    background-color: var(--secondary-bg-color);
+    color: var(--font-color-buttons);
+    height: 50px;
+    width: 100vw;
+}
+
+ section{
+    background-color: var(--main-bg-color);
+    height: 600px;
+ }
+
+ button{
+     background-color: var(--button-bg-color);
+     color: var(--font-color-buttons);
+     height: 40px;
+     width: 120px;
+     border: var(--button-border-color) solid 1px;
+     border-radius: 2px;
+ }
