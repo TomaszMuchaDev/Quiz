@@ -70,7 +70,7 @@ a{
  }
 
 
- section, .sectionInfo{
+ section{
      display: flex;
      flex-direction: column;
      justify-content: space-between;
@@ -95,11 +95,11 @@ a{
      align-items: center;
  }
 
-.sectionInfo{
-
+.infoPages{
+    padding-top: 50px;
 }
 
- input{
+input{
      min-height: 40px;
      min-width: 280px;
      font-size: 1.2rem;
