@@ -6,9 +6,14 @@ const nameInput = document.getElementById("nameInput");
 const btnHowToPlayPage = document.getElementById("btnHowToPlay");
 const btnAbout = document.getElementById("btnAbout");
 const btnScore = document.getElementById("btnScore");
+const resultFlag = document.getElementById("resultFlag");
+const resultFact = document.getElementById("resultFact");
+const resultBtnWiki = document.getElementById("resultBtnWiki");
+const resultMsg = document.getElementById("resultMsg");
+
+
 
 let name;
-
 
 
 // use only on index page
@@ -25,7 +30,7 @@ let name;
         pointsMessage.innerText = "Welcome!!!";
         btnHome.addEventListener("click", handleHome);
     }
-// all other pages
+// rest of  pages
     else {
         // const player = localStorage.getItem("player");
         // pointsMessage.innerText = `${player}`;
@@ -73,3 +78,25 @@ function handleAboutRedirection (){
 function handleScoreRedirection (){
     window.location.href = "./chooseRegion.html";
 }
+
+function handleResult (countryNumber){
+    fetch("./countries.json")
+        .then(response => response.json())
+        .then(json => {
+            const name = json[countryNumber].name;
+            const interestingFact = json[countryNumber].interestingFact;
+            const wikiLink = json[countryNumber].wikiLink;
+            resultFlag.src = json[countryNumber].flagPath;
+            resultFact.innerText = "Do you know that " + interestingFact;
+            resultBtnWiki.addEventListener("click", ()=>{
+                window.open(wikiLink);
+            });
+            resultBtnWiki.innerText = name + " info";
+            resultMsg.innerText = `This is flag of ${name}.
+            Click button below to find out more about this country.`;
+        });
+}
+
+handleResult(1);
+
+

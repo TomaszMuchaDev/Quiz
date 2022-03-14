@@ -17,26 +17,21 @@
 <main>
     <h2>Region is Africa.</h2>
     <div class="resultCenterElement">
-        <aside>
-            <img src="./Assets/Graphics/map.png" alt="map" style="height: 300px; width: 400px">
+        <aside class="result-aside">
+            <img src="./Assets/Graphics/map.png" alt="map" style="height: 200px; width: 300px">
         </aside>
-        <section class="sectionCountries">
+        <section class="result-section">
                 <div class="countryCard">
-                    <img class="imgCountry" src="Assets/Flags/india.png" alt="flag">
+                    <img class="imgCountry" id="resultFlag" alt="flag">
                 </div>
             <article>
                 <h1>Correct!!!</h1>
-                <h2>This is flag of India.</h2>
-                <h2>Click button below to find out more about India.</h2>
+                <h3 id="resultMsg"></h3>
             </article>
-            <button class="btnInfo">India info</button>
+            <button class="btnInfo" id="resultBtnWiki"></button>
         </section>
-        <aside class="asideInfoFact">
-            <h3>
-                Interesting Facts About India:
-                do you know that Rajasthan
-                has a Temple of Rats?
-            </h3>
+        <aside class="result-aside" >
+            <p id="resultFact"></p>
         </aside>
     </div>
     <section class="buttonsBottomRow">

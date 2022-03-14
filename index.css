@@ -81,19 +81,36 @@ a{
 .resultCenterElement{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 
-.sectionRegions, .sectionCountries{
+.sectionRegions, .sectionCountries, .result-section{
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
  }
+
+.result-section{
+    max-width: 400px;
+    padding: 0 50px;
+}
+
+
+.result-aside{
+    height: 200px;
+    width: 300px;
+    border: var(--button-border-color) solid 1px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
 
 .infoPages{
     padding-top: 50px;
@@ -109,7 +126,7 @@ input{
  }
 
 a, .regionCard, .regionCardClicked, .countryCard,
-.countryCardClicked, .asideInfoFact, .infoArticle{
+.countryCardClicked, .result-aside, .infoArticle{
     border: var(--button-border-color) solid 1px;
     border-radius: 5px;
     box-shadow: 0 8px 8px -4px var(--shadow-color);
@@ -161,14 +178,14 @@ button{
      height: 60px;
      width: 140px;
      font-size: 1.2em;
-     font-weight: bold;
+     font-weight: normal;
      border: var(--button-border-color) solid 1px;
      border-radius: 5px;
      box-shadow: 0 8px 8px -4px var(--shadow-color);
  }
 
 
-.btnInfo, .asideInfoFact{
+.btnInfo, .result-aside{
     background-color: var(--info-elements-color);
     color: var(--info-font-color);
 }
@@ -186,15 +203,6 @@ article{
     height: auto;
 }
 
-.asideInfoFact{
-    height: 300px;
-    width: 400px;
-    border: var(--button-border-color) solid 1px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-}
 
 .buttonsBottomRow, .buttonBottom{
     width: 400px;
