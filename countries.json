@@ -1,12 +1,103 @@
 [
+
+  {
+    "name": "Afghanistan",
+    "flagPath": "./Assets/Flags/afghanistan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Afghanistan",
+    "interestingFact": "since the use of the first flag in 1709, Afghanistan has had 26 different flags.",
+    "region": "Asia",
+    "longitude": "66.11",
+    "latitude": "34.31"
+  },
+  {
+    "name": "Albania",
+    "flagPath": "./Assets/Flags/albania.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Albania",
+    "interestingFact": "Albania is the world’s largest hydroelectricity producer. 100% of the country’s energy is hydroelectric.",
+    "region": "Europe",
+    "longitude": "20.00",
+    "latitude": "41.19"
+  },
+  {
+    "name": "Algeria",
+    "flagPath": "./Assets/Flags/algeria.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Algeria",
+    "interestingFact": "Algeria is the largest African nation, spread across more than 2 million square kilometres.",
+    "region": "Africa",
+    "longitude": "3.13",
+    "latitude": "28.42"
+  },
+  {
+    "name": "Andorra",
+    "flagPath": "./Assets/Flags/andora.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Andorra",
+    "interestingFact": "the country of Andorra can fit into the City of London more than three times",
+    "region": "Europe",
+    "longitude": "1.50",
+    "latitude": "42.50"
+  },
+  {
+    "name": "Angola",
+    "flagPath": "./Assets/Flags/angola.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Angola",
+    "interestingFact": " Angola has a shortage of men, so common practice for a man is to have several wives.",
+    "region": "Africa",
+    "longitude": "18.50",
+    "latitude": "-13.20"
+  },
+  {
+    "name": "Antigua",
+    "flagPath": "./Assets/Flags/antigua.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Antigua",
+    "interestingFact": "Antigua has no rivers and no lakes. ",
+    "region": "America",
+    "longitude": "-61.80",
+    "latitude": "17.05"
+  },
+  {
+    "name": "Argentina",
+    "flagPath": "./Assets/Flags/argentina.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Argentina",
+    "interestingFact": "Argentina government banned parents from naming their children after Messi, worrying about confusion later down the line if the name was to become too fashionable. ",
+    "region": "America",
+    "longitude": "-65.36",
+    "latitude": "-35.23"
+  },
+  {
+    "name": "Australia",
+    "flagPath": "./Assets/Flags/australia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Australia",
+    "interestingFact": "Indian Pacific train has the longest straight section of train track in the world",
+    "region": "Asia",
+    "longitude": "135.00",
+    "latitude": "-25.00"
+  },
+  {
+    "name": "Austria",
+    "flagPath": "./Assets/Flags/austria.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Austria",
+    "interestingFact": "Vienna has the oldest zoo in the world which was founded in 1752.",
+    "region": "Europe",
+    "longitude": "15.01",
+    "latitude": "47.52"
+  },
+  {
+    "name": "Azerbaijan",
+    "flagPath": "./Assets/Flags/azerbaijan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Azerbaijan",
+    "interestingFact": "Azerbaijan has the museum with the world’s largest collection of miniature books with more than 5,500 teeny tiny books on display. ",
+    "region": "Asia",
+    "longitude": "47.32",
+    "latitude": "40.23"
+  },
   {
     "name": "India",
     "flagPath": "./Assets/Flags/india.png",
     "wikiLink": "https://en.wikipedia.org/wiki/India",
     "interestingFact": "Rajasthan has a Temple of Rats!",
     "region": "Asia",
-    "longitude": "28°36′50″N",
-    "latitude": "77°12′30″E"
+    "longitude": "77.12",
+    "latitude": "18.36"
   },
   {
     "name": "Poland",
@@ -14,7 +105,7 @@
     "wikiLink": "https://en.wikipedia.org/wiki/Poland",
     "interestingFact": "Poland is home to the world’s biggest castle?\nThe Castle of the Teutonic Order in Malbork is the largest castle in the world by land area.",
     "region": "Europe",
-    "longitude": "28°36′50″N",
-    "latitude": "77°12′30″E"
+    "longitude": "19.01",
+    "latitude": "52.22"
   }
 ]
