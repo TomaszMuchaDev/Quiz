@@ -101,7 +101,7 @@ function handleResult (countryNumber){
         });
 }
 
-handleResult(9);
+handleResult(24);
 
 
 function handleMapDisplay(lng, lat){

@@ -91,6 +91,141 @@
     "latitude": "40.23"
   },
   {
+    "name": "Bahamas",
+    "flagPath": "./Assets/Flags/bahamas.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Bahamas",
+    "interestingFact": "the Bahamas is home to its own sea monster? It can change color, and it’s been described as “half-shark and half-octopus!",
+    "region": "America",
+    "longitude": "-77.40",
+    "latitude": "25.05"
+  },
+  {
+    "name": "Bahrain",
+    "flagPath": "./Assets/Flags/bahrain.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Bahrain",
+    "interestingFact": "Bahrain was historically famed for its pearl fisheries, which were considered to be among the best in the world.",
+    "region": "Asia",
+    "longitude": "50.55",
+    "latitude": "26.01"
+  },
+  {
+    "name": "Bangladesh",
+    "flagPath": "./Assets/Flags/bangladesh.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Bangladesh",
+    "interestingFact": "in Bangladesh you commit a crime if you leave the house without wearing underwear?",
+    "region": "Asia",
+    "longitude": "90.23",
+    "latitude": "23.45"
+  },
+  {
+    "name": "Barbados",
+    "flagPath": "./Assets/Flags/barbados.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Barbados",
+    "interestingFact": "Barbados is the birthplace of rum, Mount Gay Distilleries has been churning out rum since 1703. ",
+    "region": "America",
+    "longitude": "-59.51",
+    "latitude": "13.13"
+  },
+  {
+    "name": "Belarus",
+    "flagPath": "./Assets/Flags/belarus.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Belarus",
+    "interestingFact": "Belarusians love a good superstition. A particularly popular one is that you should never whistle in your house or you’ll blow all your money away. ",
+    "region": "Europe",
+    "longitude": "27.33",
+    "latitude": "53.55"
+  },
+  {
+    "name": "Belgium",
+    "flagPath": "./Assets/Flags/belgium.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Belgium",
+    "interestingFact": "until the 1970s, in Belgium light beer was served during school lunch?",
+    "region": "Europe",
+    "longitude": "5.11",
+    "latitude": "50.51"
+  },
+  {
+    "name": "Belize",
+    "flagPath": "./Assets/Flags/belize.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Belize",
+    "interestingFact": "Many Belizeans avoid swimming in the ocean or rivers on Good Friday; it is viewed as bad luck. Local Mothers can often be heard telling their kids they “will turn fish!” if they swim on this day!",
+    "region": "America",
+    "longitude": "-88.80",
+    "latitude": "17.05"
+  },
+  {
+    "name": "Bermuda",
+    "flagPath": "./Assets/Flags/bermuda.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Bermuda",
+    "interestingFact": "Bermuda is the Shipwreck Capital of the World, to date, over 300 wrecks have been found dating back to the 1600s.",
+    "region": "America",
+    "longitude": "-64.77",
+    "latitude": "32.30"
+  },
+  {
+    "name": "Botswana",
+    "flagPath": "./Assets/Flags/botswana.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Botswana",
+    "interestingFact": "Botswana is one of the World’s biggest diamond producers?",
+    "region": "Africa",
+    "longitude": "24.74",
+    "latitude": "-23.39"
+  },
+  {
+    "name": "Brazil",
+    "flagPath": "./Assets/Flags/brazil.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Brazil",
+    "interestingFact": "Brazil has the biggest carnival in the world. The Rio Carnival in Rio de Janeiro sees 2 million people.",
+    "region": "America",
+    "longitude": "-49.38",
+    "latitude": "-13.33"
+  },
+  {
+    "name": "Brunei",
+    "flagPath": "./Assets/Flags/brunei.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Brunei",
+    "interestingFact": "Brunei has one of the highest car-ownership rates in the world? The Sultan of Brunei alone owns five thousand cars.",
+    "region": "Asia",
+    "longitude": "114.56",
+    "latitude": "4.53"
+  },
+  {
+    "name": "Bulgaria",
+    "flagPath": "./Assets/Flags/bulgaria.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Bulgaria",
+    "interestingFact": "Bulgarians express approval by shaking their heads rather than nodding. Weird, huh.",
+    "region": "Europe",
+    "longitude": "25.41",
+    "latitude": "42.19"
+  },
+  {
+    "name": "Burkina Faso",
+    "flagPath": "./Assets/Flags/burkinaFaso.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Burkina_Faso",
+    "interestingFact": " the people love the horses in Burkina Faso. The White Stallion is the country’s national symbol. ",
+    "region": "Africa",
+    "longitude": "-1.22",
+    "latitude": "12.32"
+  },
+  {
+    "name": "Burundi",
+    "flagPath": "./Assets/Flags/burundi.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Burundi",
+    "interestingFact": "the traditional beer is drunk from one central pot by almost a dozen people using long straws?",
+    "region": "Africa",
+    "longitude": "30.00",
+    "latitude": "-3.30"
+  },
+  {
+    "name": "Bhutan",
+    "flagPath": "./Assets/Flags/buthan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Bhutan",
+    "interestingFact": "Paro is known as the most dangerous airport to land on in the whole world. Only 8 trained pilots are allowed to do this.",
+    "region": "Asia",
+    "longitude": "90.38",
+    "latitude": "27.28"
+  },
+  {
     "name": "India",
     "flagPath": "./Assets/Flags/india.png",
     "wikiLink": "https://en.wikipedia.org/wiki/India",
