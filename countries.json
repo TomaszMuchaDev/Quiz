@@ -226,6 +226,151 @@
     "latitude": "27.28"
   },
   {
+    "name": "Cambodia",
+    "flagPath": "./Assets/Flags/cambodia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Cambodia",
+    "interestingFact": "spiders, scorpions, snakes, insects like maggots, cockroaches, and crickets are all cooked up and eaten in Cambodia?",
+    "region": "Asia",
+    "longitude": "104.55",
+    "latitude": "12.33"
+  },
+  {
+    "name": "Canada",
+    "flagPath": "./Assets/Flags/canada.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Canada",
+    "interestingFact": "Canada has the longest coastline and the longest international border in the world?",
+    "region": "America",
+    "longitude": "-112.40",
+    "latitude": "55.24"
+  },
+  {
+    "name": "Cape Verde",
+    "flagPath": "./Assets/Flags/capeVerde.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Cape_Verde",
+    "interestingFact": " in Cape Verde it is rude to eat in public without sharing your food?",
+    "region": "Africa",
+    "longitude": "-23.51",
+    "latitude": "15.00"
+  },
+  {
+    "name": "Cayman Islands",
+    "flagPath": "./Assets/Flags/caymanIslands.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Cayman_Islands",
+    "interestingFact": "in Cayman Islands is a dive site for every day of the year",
+    "region": "America",
+    "longitude": "-81.24",
+    "latitude": "19.30"
+  },
+  {
+    "name": "Chad",
+    "flagPath": "./Assets/Flags/chad.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Chad",
+    "interestingFact": "Chad has over 200 ethnic groups, and 100 languages are spoken?",
+    "region": "Africa",
+    "longitude": "18.02",
+    "latitude": "14.06"
+  },
+  {
+    "name": "Chile",
+    "flagPath": "./Assets/Flags/chile.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Chile",
+    "interestingFact": "the Atacama Desert is one of the driest places in the world, there are areas that go hundreds of years without receiving any rain at all.",
+    "region": "America",
+    "longitude": "-70.90",
+    "latitude": "-33.26"
+  },
+  {
+    "name": "China",
+    "flagPath": "./Assets/Flags/china.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/China",
+    "interestingFact": "the mortar used to bind the Great Wall’s stones was made with sticky rice?",
+    "region": "Asia",
+    "longitude": "100.23",
+    "latitude": "32.55"
+  },
+  {
+    "name": "Colombia",
+    "flagPath": "./Assets/Flags/colombia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Colombia",
+    "interestingFact": "Colombia has a naturally occurring Rainbow River whose aquatic plants and algae have created a red, blue, orange, yellow, and green flowing stream? ",
+    "region": "America",
+    "longitude": "-74.00",
+    "latitude": "4.35"
+  },
+  {
+    "name": "Comoros",
+    "flagPath": "./Assets/Flags/comoros.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Comoros",
+    "interestingFact": "Comoros has one of the smallest populations in the world and is one of the most densely populated countries in the world?",
+    "region": "Africa",
+    "longitude": "43.36",
+    "latitude": "-11.61"
+  },
+  {
+    "name": "Congo",
+    "flagPath": "./Assets/Flags/congo.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
+    "interestingFact": "the Congo River is the deepest river (220 m) in the world?",
+    "region": "Africa",
+    "longitude": "24.49",
+    "latitude": "-2.19"
+  },
+  {
+    "name": "Costa Rica",
+    "flagPath": "./Assets/Flags/costaRica.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Costa_Rica",
+    "interestingFact": "Costa Rica does not have a standing army?",
+    "region": "America",
+    "longitude": "-83.54",
+    "latitude": "9.54"
+  },
+  {
+    "name": "Croatia",
+    "flagPath": "./Assets/Flags/croatia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Croatia",
+    "interestingFact": "Croatia is home to the world’s smallest town? According to sources it has a population of between 17 and 23!",
+    "region": "Europe",
+    "longitude": "16.00",
+    "latitude": "45.48"
+  },
+  {
+    "name": "Cuba",
+    "flagPath": "./Assets/Flags/cuba.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Cuba",
+    "interestingFact": "Cuba is home to the smallest bird in the world? The bee hummingbird grows to 6 cm in length!",
+    "region": "America",
+    "longitude": "-81.23",
+    "latitude": "22.8"
+  },
+  {
+    "name": "Curacao",
+    "flagPath": "./Assets/Flags/curacao.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Curacao",
+    "interestingFact": "there’s not one person that has visit Curacao and not seen an iguana? They’re everywhere and are protected.",
+    "region": "America",
+    "longitude": "-68.86",
+    "latitude": "12.13"
+  },
+  {
+    "name": "Cyprus",
+    "flagPath": "./Assets/Flags/cyprus.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Cyprus",
+    "interestingFact": "Cyprus is home to the oldest manufactured wine in the world? Is a sweet dessert wine and you can trace its origins as far back as 2000BC.",
+    "region": "Europe",
+    "longitude": "33.22",
+    "latitude": "35.10"
+  },
+  {
+    "name": "Czechia",
+    "flagPath": "./Assets/Flags/czechRepublic.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Czech_Republic",
+    "interestingFact": "the Czechia has the highest castle-density in the world? Get your fix of medieval charm with more than 2,000 around the country!",
+    "region": "Europe",
+    "longitude": "14.28",
+    "latitude": "50.05"
+  },
+
+  {
     "name": "India",
     "flagPath": "./Assets/Flags/india.png",
     "wikiLink": "https://en.wikipedia.org/wiki/India",
