@@ -224,7 +224,11 @@ button:hover, .regionCard:hover, .countryCard:hover{
  }
 
 
-@media (max-width: 960px) {
+@media  (max-width: 960px) {
+    body, .resultCenterElement{
+        width: 100vw;
+
+    }
     .resultCenterElement{
         display: flex;
         flex-direction: column;
@@ -232,6 +236,10 @@ button:hover, .regionCard:hover, .countryCard:hover{
         align-items: center;
         padding: 20px;
     }
+    .result-section{
+        height: auto;
+    }
+
     .btnInfo{
         margin-bottom: 30px;
     }
