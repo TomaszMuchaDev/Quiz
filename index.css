@@ -19,6 +19,10 @@ body{
     margin: 0;
 }
 
+h1, h2, h3, p{
+    text-align: center;
+}
+
 footer, header{
     background-color: var(--secondary-bg-color);
     color: var(--font-color-buttons);
@@ -79,11 +83,12 @@ a{
  }
 
 .resultCenterElement{
+    width: 90vw;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
 
 
@@ -96,8 +101,7 @@ a{
  }
 
 .result-section{
-    max-width: 400px;
-    padding: 0 50px;
+    width: 300px;
 }
 
 
@@ -111,7 +115,9 @@ a{
     text-align: center;
 }
 
-
+#resultFact{
+    width: 300px;
+}
 .infoPages{
     padding-top: 50px;
 }
@@ -191,11 +197,9 @@ button{
 }
 
 article{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+    width: 300px;
     text-align: center;
+
 }
 
 .infoArticle{
@@ -203,9 +207,8 @@ article{
     height: auto;
 }
 
-
 .buttonsBottomRow, .buttonBottom{
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -219,3 +222,18 @@ article{
 button:hover, .regionCard:hover, .countryCard:hover{
      cursor: pointer;
  }
+
+
+@media (max-width: 960px) {
+    .resultCenterElement{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .btnInfo{
+        margin-bottom: 30px;
+    }
+
+}
