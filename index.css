@@ -50,7 +50,10 @@ nav{
     padding-right: 40px;
 }
 
-a{
+
+
+
+.navBtn {
     background-color: var(--links-bg-color);
     color: var(--font-color-buttons);
     text-decoration: none;
@@ -131,7 +134,7 @@ input{
      box-shadow: 0 8px 8px -4px var(--shadow-color);
  }
 
-a, .regionCard, .regionCardClicked, .countryCard,
+.navBtn, .regionCard, .regionCardClicked, .countryCard,
 .countryCardClicked, .result-aside, .infoArticle{
     border: var(--button-border-color) solid 1px;
     border-radius: 5px;

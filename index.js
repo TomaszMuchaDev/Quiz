@@ -1,11 +1,7 @@
 const btnLogin = document.getElementById("btnLogin");
 const btnCreate = document.getElementById("btnCreate");
-const btnHome = document.getElementById("btnHome");
 const pointsMessage = document.getElementById("pointsMessage");
 const nameInput = document.getElementById("nameInput");
-const btnHowToPlayPage = document.getElementById("btnHowToPlay");
-const btnAbout = document.getElementById("btnAbout");
-const btnScore = document.getElementById("btnScore");
 const resultFlag = document.getElementById("resultFlag");
 const resultFact = document.getElementById("resultFact");
 const resultBtnWiki = document.getElementById("resultBtnWiki");
@@ -23,32 +19,12 @@ let name;
         nameInput.addEventListener('input', (e) => {
             name = e.target.value;
         });
-
-    }
-// use with about and how to play pages
-    else if (btnHome) {
-        pointsMessage.innerText = "Welcome!!!";
-        btnHome.addEventListener("click", handleHome);
     }
 // rest of  pages
     else {
         // const player = localStorage.getItem("player");
         // pointsMessage.innerText = `${player}`;
     }
-
-if(btnHowToPlayPage){
-    btnHowToPlayPage.addEventListener("click", handleHowToPlayRedirection);
-}
-
-
-if(btnAbout){
-    btnAbout.addEventListener("click", handleAboutRedirection);
-}
-
-
-if(btnScore){
-    btnScore.addEventListener("click", handleScoreRedirection)
-}
 
 function handleLogin() {
        const userFromLocalStorage = localStorage.getItem(name);
@@ -62,22 +38,6 @@ function handleLogin() {
            localStorage.setItem("name", JSON.stringify(player));
        }
     }
-
-function handleHome() {
-        window.location.href = "./index.html";
-    }
-
-function handleHowToPlayRedirection (){
-    window.location.href = "./index.html";
-}
-
-function handleAboutRedirection (){
-    window.location.href = "./index.html";
-}
-
-function handleScoreRedirection (){
-    window.location.href = "./chooseRegion.html";
-}
 
 function handleResult (countryNumber){
     fetch("./countries.json")
@@ -100,6 +60,7 @@ function handleResult (countryNumber){
             handleMapDisplay(lng, lat);
         });
 }
+
 
 handleResult(41);
 

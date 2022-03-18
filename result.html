@@ -12,9 +12,9 @@
 <body>
 <header>
     <nav>
-        <a href="./index.html">Home</a>
-        <a href="./chooseRegion.html">Choose Region</a>
-        <a href="./howToPlay.html">How To Play</a>
+        <a class="navBtn" href="./index.html">Home</a>
+        <a class="navBtn" href="./chooseRegion.html">Choose Region</a>
+        <a class="navBtn" href="./howToPlay.html">How To Play</a>
     </nav>
     <p id="pointsMessage"></p>
 </header>
@@ -34,17 +34,21 @@
             </article>
             <button class="btnInfo" id="resultBtnWiki"></button>
         </section>
-        <aside class="result-aside" >
+        <aside class="result-aside">
             <p id="resultFact"></p>
         </aside>
     </div>
     <section class="buttonsBottomRow">
-        <button>Quit</button>
-        <button>Next Question</button>
+        <a href="./index.html">
+            <button>Quit</button>
+        </a>
+        <a href="./game.html">
+            <button>Next Question</button>
+        </a>
     </section>
 </main>
 <footer>
-    <a href="./about.html">About Us</a>
+    <a class="navBtn" href="./about.html">About Us</a>
     <p id="footerMessage">We do not store or use your data.</p>
 </footer>
 </body>
