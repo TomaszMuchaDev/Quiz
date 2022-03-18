@@ -369,6 +369,153 @@
     "longitude": "14.28",
     "latitude": "50.05"
   },
+  {
+    "name": "Denmark",
+    "flagPath": "./Assets/Flags/denmark.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Denmark",
+    "interestingFact": "the Danish language has no word for please?",
+    "region": "Europe",
+    "longitude": "9.34",
+    "latitude": "56.34"
+  },
+  {
+    "name": "Dominica",
+    "flagPath": "./Assets/Flags/dominica.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Dominica",
+    "interestingFact": "Sulfur springs and black-sand beaches surround the capital city of Roseau?",
+    "region": "America",
+    "longitude": "-61.40",
+    "latitude": "15.48"
+  },
+  {
+    "name": "Dominican",
+    "flagPath": "./Assets/Flags/dominicanRepublic.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Dominican_Republic",
+    "interestingFact": " it is  illegal to kiss a woman in front of a police officer?",
+    "region": "America",
+    "longitude": "-70.40",
+    "latitude": "19.00"
+  },
+  {
+    "name": "Timor",
+    "flagPath": "./Assets/Flags/eastTimor.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/East_Timor",
+    "interestingFact": "Dugongs are considered sacred animals to locals, and are not hunted?",
+    "region": "Asia",
+    "longitude": "125.56",
+    "latitude": "-8.95"
+  },
+  {
+    "name": "Ecuador",
+    "flagPath": "./Assets/Flags/ecuador.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Ecuador",
+    "interestingFact": "Ecuador’s highest mountain, Mount Chimborazo, at its peak is the furthest point from the Earth’s center?",
+    "region": "America",
+    "longitude": "-78.30",
+    "latitude": "-2.13"
+  },
+  {
+    "name": "Egypt",
+    "flagPath": "./Assets/Flags/egypt.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Egypt",
+    "interestingFact": " the 365-day calendar that is divided into 12 months was invented in Egypt?",
+    "region": "Africa",
+    "longitude": "31.13",
+    "latitude": "25.20"
+  },
+  {
+    "name": "El Salvador",
+    "flagPath": "./Assets/Flags/elSalvador.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/El_Salvador",
+    "interestingFact": "it is considered polite to leave a small amount of food on your plate when you’ve finished eating?",
+    "region": "America",
+    "longitude": "-89.11",
+    "latitude": "13.51"
+  },
+  {
+    "name": "England",
+    "flagPath": "./Assets/Flags/england.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/England",
+    "interestingFact": "in England, it’s illegal to get drunk in a pub?",
+    "region": "Europe",
+    "longitude": "-1.0",
+    "latitude": "52.30"
+  },
+  {
+    "name": "Eritrea",
+    "flagPath": "./Assets/Flags/eritrea.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Eritrea",
+    "interestingFact": "one of the oldest human skeletons was discovered in Eritrea? A one-million-year-old hominid skull was found near the village of Buia.",
+    "region": "Africa",
+    "longitude": "38.55",
+    "latitude": "15.20"
+  },
+  {
+    "name": "Estonia",
+    "flagPath": "./Assets/Flags/estonia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Estonia",
+    "interestingFact": "in Estonia wife-carrying is a sport?",
+    "region": "Europe",
+    "longitude": "25.45",
+    "latitude": "58.85"
+  },
+  {
+    "name": "Eswatini",
+    "flagPath": "./Assets/Flags/eswatini.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Eswatini",
+    "interestingFact": "Eswatini has two capital cities? Mbabane is the administrative capital while Lobamba is the national capital.",
+    "region": "Africa",
+    "longitude": "31.30",
+    "latitude": "-26.30"
+  },
+  {
+    "name": "Ethiopia",
+    "flagPath": "./Assets/Flags/ethiopia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Ethiopia",
+    "interestingFact": "Ethiopians measure the hours of a day to a different schedule? The clock starts when the day does. Thus, sunrise is 1 o’clock and sunset 12.",
+    "region": "Africa",
+    "longitude": "38.45",
+    "latitude": "9.10"
+  },
+  {
+    "name": "Finland",
+    "flagPath": "./Assets/Flags/finland.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Finland",
+    "interestingFact": "in Finland, they have ‘National Sleepy Head Day’, where the last person in a family to wake up is thrown into a lake by the rest of the family.",
+    "region": "Europe",
+    "longitude": "26.96",
+    "latitude": "65.10"
+  },
+  {
+    "name": "France",
+    "flagPath": "./Assets/Flags/france.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/France",
+    "interestingFact": "the French army still use carrier pigeons?",
+    "region": "Europe",
+    "longitude": "2.21",
+    "latitude": "46.51"
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+
+
+
 
   {
     "name": "India",
