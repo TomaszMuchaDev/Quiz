@@ -35,7 +35,7 @@ if(btnSubmitAnswer){
 
 // result page
 if(resultFlag){
-    handleResult(45);
+    handleResult(70);
 }
 
 

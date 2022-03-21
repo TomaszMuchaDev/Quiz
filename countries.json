@@ -496,6 +496,195 @@
     "latitude": "46.51"
   },
   {
+    "name": "Gabon",
+    "flagPath": "./Assets/Flags/gabon.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Gabon",
+    "interestingFact": "the Gabonese people use masks to praise the ancestors and to mark important life events by signifying transformation? ",
+    "region": "Africa",
+    "longitude": "12.27",
+    "latitude": "-0.23"
+  },
+  {
+    "name": "Gambia",
+    "flagPath": "./Assets/Flags/gambia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Gambia",
+    "interestingFact": "during elections, Gambians vote using marbles? They simply drop their marble into the hole of candidate they choose.",
+    "region": "Africa",
+    "longitude": "-16.36",
+    "latitude": "13.28"
+  },
+  {
+    "name": "Georgia",
+    "flagPath": "./Assets/Flags/georgia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Georgia_(country)",
+    "interestingFact": "the world’s deepest cave is found in Georgia? Veryovkina Cave  reaches a depth of 2,212 metres!",
+    "region": "Europe",
+    "longitude": "43.47",
+    "latitude": "42.03"
+  },
+  {
+    "name": "Germany",
+    "flagPath": "./Assets/Flags/germany.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Germany",
+    "interestingFact": "there is no speed limit on the highways in Germany?",
+    "region": "Europe",
+    "longitude": "10.23",
+    "latitude": "50.31"
+  },
+  {
+    "name": "Ghana",
+    "flagPath": "./Assets/Flags/ghana.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Ghana",
+    "interestingFact": "that coffins in Ghana have unique shapes such as lions, fish, crabs, shoes and airplanes?",
+    "region": "Africa",
+    "longitude": "-1.12",
+    "latitude": "8.33"
+  },
+  {
+    "name": "Guam",
+    "flagPath": "./Assets/Flags/guam.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Guam",
+    "interestingFact": "there is no sand on the island of Guam? The beaches are covered in coral instead of sand, and paved roads in Guam are made by mixing coral and cement.",
+    "region": "Asia",
+    "longitude": "144.78",
+    "latitude": "13.47"
+  },
+  {
+    "name": "Guatemala",
+    "flagPath": "./Assets/Flags/guatemala.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Guatemala",
+    "interestingFact": "Guatemalans invented the first ever chocolate bar?",
+    "region": "America",
+    "longitude": "-90.30",
+    "latitude": "15.38"
+  },
+  {
+    "name": "Guinea",
+    "flagPath": "./Assets/Flags/guinea.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Guinea",
+    "interestingFact": " in the Nimba Mountains of Guinea  chimpanzees were first observed using tools to chop up and reduce food into smaller bite-sized portions?",
+    "region": "Africa",
+    "longitude": "-11.00",
+    "latitude": "11.00"
+  },
+  {
+    "name": "Guyana",
+    "flagPath": "./Assets/Flags/guyana.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Guyana",
+    "interestingFact": " Guyana is home to the world’s largest single drop waterfall? The Kaieteur Falls has a total length of 251 meters!",
+    "region": "America",
+    "longitude": "-59.10",
+    "latitude": "4.46"
+  },
+  {
+    "name": "Haiti",
+    "flagPath": "./Assets/Flags/haiti.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Haiti",
+    "interestingFact": "Voodou still is a regular practice in Haiti?",
+    "region": "America",
+    "longitude": "-72.20",
+    "latitude": "18.92"
+  },
+  {
+    "name": "Honduras",
+    "flagPath": "./Assets/Flags/honduras.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Honduras",
+    "interestingFact": "local buses are called Chicken buses? They’re brightly painted and look like a party on wheels. You’re unlikely to see chickens on these buses.",
+    "region": "America",
+    "longitude": "-87.13",
+    "latitude": "14.60"
+  },
+  {
+    "name": "Hong Kong",
+    "flagPath": "./Assets/Flags/hongKong.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Hong_Kong",
+    "interestingFact": "the mystical art of feng shui remains common practice in Hong Kong? The rooftop of Central’s HSBC Hong Kong building includes two rods to deflect bad energy. ",
+    "region": "Asia",
+    "longitude": "114.12",
+    "latitude": "22.38"
+  },
+  {
+    "name": "Hungary",
+    "flagPath": "./Assets/Flags/hungary.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/hungary",
+    "interestingFact": "Budapest has the highest number of thermal springs in the world?",
+    "region": "Europe",
+    "longitude": "19.15",
+    "latitude": "47.26"
+  },
+  {
+    "name": "India",
+    "flagPath": "./Assets/Flags/india.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/India",
+    "interestingFact": "Rajasthan has a Temple of Rats!",
+    "region": "Asia",
+    "longitude": "77.12",
+    "latitude": "18.36"
+  },
+  {
+    "name": "Indonesia",
+    "flagPath": "./Assets/Flags/indonesia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Indonesia",
+    "interestingFact": "Indonesia is the largest archipelago in the world?  Officially, there are over 17,500 islands that comprise Indonesia.",
+    "region": "Asia",
+    "longitude": "115.49",
+    "latitude": "-1.10"
+  },
+  {
+    "name": "Iran",
+    "flagPath": "./Assets/Flags/iran.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Iran",
+    "interestingFact": "the weekend in Iran is Thursday and Friday? Thursday is like Saturday, banks and shops are open but some offices are closed, while Friday is like Sunday.",
+    "region": "Asia",
+    "longitude": "53.25",
+    "latitude": "32.41"
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
     "name": "",
     "flagPath": "./Assets/Flags/.png",
     "wikiLink": "https://en.wikipedia.org/wiki/",
@@ -712,15 +901,7 @@
     "latitude": ""
   },
 
-  {
-    "name": "India",
-    "flagPath": "./Assets/Flags/india.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/India",
-    "interestingFact": "Rajasthan has a Temple of Rats!",
-    "region": "Asia",
-    "longitude": "77.12",
-    "latitude": "18.36"
-  },
+
   {
     "name": "Poland",
     "flagPath": "./Assets/Flags/poland.png",
