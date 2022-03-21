@@ -16,30 +16,26 @@
 </header>
 <main>
     <section class="sectionRegions">
-        <div class="regionCard">
-            <img class="imgRegion" src="Assets/Graphics/africa.png" alt="africa">
-            <h1>Africa</h1>
-        </div>
-        <div class="regionCard">
-            <img class="imgRegion" src="Assets/Graphics/america.png" alt="america">
-            <h1>America</h1>
-        </div>
-        <div class="regionCardClicked">
-            <img class="imgRegion" src="Assets/Graphics/asia.png" alt="asia">
-            <h3>Asia and Australia</h3>
-        </div>
-        <div class="regionCard">
-            <img class="imgRegion" src="Assets/Graphics/europa.png" alt="europe">
-            <h1>Europe</h1>
-        </div>
-        <div class="regionCard">
-            <img class="imgRegion" src="Assets/Graphics/world.png" alt="world">
-            <h1>World</h1>
-        </div>
+        <button class="regionCard" data-region = "World" style= "background-image: url('./Assets/Graphics/world.png')" >
+            World
+        </button>
+        <button class="regionCard" data-region = "Africa" style= "background-image: url('./Assets/Graphics/africa.png')" >
+            Africa
+        </button>
+        <button class="regionCard" data-region = "America" style= "background-image: url('./Assets/Graphics/america.png')" >
+            America
+        </button>
+        <button class="regionCard" data-region = "Europe" style= "background-image: url('./Assets/Graphics/europa.png')" >
+            Europe
+        </button>
+        <button class="regionCard" data-region = "Asia"
+                style= "background-image: url('./Assets/Graphics/asia.png'); font-size: 1.1rem" >
+            Asia and Australia
+        </button>
     </section>
     <h2>Please choose a region and press Play button.</h2>
     <section class="buttonBottom">
-        <button id="btnRegion">Play</button>
+        <button id="btnSubmitRegion">Play</button>
     </section>
 </main>
 <footer>

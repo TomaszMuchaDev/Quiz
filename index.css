@@ -40,18 +40,56 @@ header{
 footer{
     border-top: var(--header-footer-border-color) solid 1px;
 }
+
 nav{
     display: flex;
     flex-direction: row;
     align-content: center;
 }
 
-#pointsMessage, #footerMessage{
-    padding-right: 40px;
+ main{
+     background-color: var(--main-bg-color);
+     min-height: 90vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     align-items: center;
+ }
+
+ section{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     min-height: 40vh;
+ }
+
+article{
+    width: 300px;
+    text-align: center;
 }
 
+input{
+    min-height: 40px;
+    min-width: 280px;
+    font-size: 1.2rem;
+    border: var(--button-border-color) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px -4px var(--shadow-color);
+}
 
-
+button{
+    background-color: var(--button-bg-color);
+    color: var(--font-color-buttons);
+    height: 60px;
+    width: 140px;
+    font-size: 1.2em;
+    font-weight: normal;
+    border: var(--button-border-color) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px -4px var(--shadow-color);
+}
 
 .navBtn {
     background-color: var(--links-bg-color);
@@ -65,25 +103,6 @@ nav{
     align-items: center;
     margin: 5px;
 }
-
- main{
-     background-color: var(--main-bg-color);
-     min-height: 90vh;
-     width: 100vw;
-     display: flex;
-     flex-direction: column;
-     justify-content: start;
-     align-items: center;
- }
-
-
- section{
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     align-items: center;
-     min-height: 40vh;
- }
 
 .resultCenterElement{
     width: 90vw;
@@ -121,28 +140,23 @@ nav{
 #resultFact{
     width: 300px;
 }
+
+#pointsMessage, #footerMessage {
+    padding-right: 40px;
+}
 .infoPages{
     padding-top: 50px;
 }
 
-input{
-     min-height: 40px;
-     min-width: 280px;
-     font-size: 1.2rem;
-     border: var(--button-border-color) solid 1px;
-     border-radius: 5px;
-     box-shadow: 0 8px 8px -4px var(--shadow-color);
- }
-
-.navBtn, .regionCard, .regionCardClicked, .countryCard,
-.countryCardClicked, .result-aside, .infoArticle{
+.navBtn, .regionCard,
+.countryCardClicked, .result-aside, .infoArticle,.imgCountry, #map{
     border: var(--button-border-color) solid 1px;
     border-radius: 5px;
     box-shadow: 0 8px 8px -4px var(--shadow-color);
 }
 
 
- .regionCard, .regionCardClicked, .countryCard,
+ .regionCard,
  .countryCardClicked, .infoArticle{
      display: flex;
      flex-direction: column;
@@ -150,12 +164,22 @@ input{
      align-items: center;
      padding-top: 20px;
      background-color: var(--card-bg-color);
+     color: var(--font-color-text);
+     font-size: 16px;
  }
 
- .regionCard, .regionCardClicked{
+ .regionCard{
      min-width: 200px;
      min-height: 260px;
      margin: 20px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 180px 180px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: end;
+     font-size: 1.4rem;
  }
 
 
@@ -164,34 +188,13 @@ input{
      box-shadow: 0 8px 8px -4px var(--button-bg-color);
  }
 
-.imgRegion{
-    height: 180px;
-    width: 180px;
-}
 
-.countryCard, .countryCardClicked{
+
+.imgCountry, .countryCardClicked, #map{
     height: 200px;
     width: 300px;
     margin: 20px;
 }
-
-.imgCountry{
-    height: 180px;
-    width: 280px;
-}
-
-
-button{
-     background-color: var(--button-bg-color);
-     color: var(--font-color-buttons);
-     height: 60px;
-     width: 140px;
-     font-size: 1.2em;
-     font-weight: normal;
-     border: var(--button-border-color) solid 1px;
-     border-radius: 5px;
-     box-shadow: 0 8px 8px -4px var(--shadow-color);
- }
 
 
 .btnInfo, .result-aside{
@@ -199,11 +202,6 @@ button{
     color: var(--info-font-color);
 }
 
-article{
-    width: 300px;
-    text-align: center;
-
-}
 
 .infoArticle{
     width: 400px;
@@ -222,7 +220,7 @@ article{
     justify-content: center;
 }
 
-button:hover, .regionCard:hover, .countryCard:hover{
+button:hover, .regionCard:hover, .imgCountry:hover{
      cursor: pointer;
  }
 
@@ -230,7 +228,15 @@ button:hover, .regionCard:hover, .countryCard:hover{
 @media  (max-width: 960px) {
     body, .resultCenterElement{
         width: 100vw;
+    }
 
+    h1, button, .navBtn{
+        font-size: 1.0rem;
+    }
+
+    .infoArticle{
+        width: 300px;
+        height: auto;
     }
     .resultCenterElement{
         display: flex;

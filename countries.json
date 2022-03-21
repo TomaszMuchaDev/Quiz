@@ -4,7 +4,7 @@
     "name": "Afghanistan",
     "flagPath": "./Assets/Flags/afghanistan.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Afghanistan",
-    "interestingFact": "since the use of the first flag in 1709, Afghanistan has had 26 different flags.",
+    "interestingFact": "since the use of the first flag in 1709, Afghanistan has had 26 different flags?",
     "region": "Asia",
     "longitude": "66.11",
     "latitude": "34.31"
@@ -13,7 +13,7 @@
     "name": "Albania",
     "flagPath": "./Assets/Flags/albania.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Albania",
-    "interestingFact": "Albania is the world’s largest hydroelectricity producer. 100% of the country’s energy is hydroelectric.",
+    "interestingFact": "Albania is the world’s largest hydroelectricity producer? 100% of the country’s energy is hydroelectric.",
     "region": "Europe",
     "longitude": "20.00",
     "latitude": "41.19"
@@ -22,7 +22,7 @@
     "name": "Algeria",
     "flagPath": "./Assets/Flags/algeria.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Algeria",
-    "interestingFact": "Algeria is the largest African nation, spread across more than 2 million square kilometres.",
+    "interestingFact": "Algeria is the largest African nation, spread across more than 2 million square kilometres?",
     "region": "Africa",
     "longitude": "3.13",
     "latitude": "28.42"
@@ -31,7 +31,7 @@
     "name": "Andorra",
     "flagPath": "./Assets/Flags/andora.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Andorra",
-    "interestingFact": "the country of Andorra can fit into the City of London more than three times",
+    "interestingFact": "the country of Andorra can fit into the City of London more than three times?",
     "region": "Europe",
     "longitude": "1.50",
     "latitude": "42.50"
@@ -40,7 +40,7 @@
     "name": "Angola",
     "flagPath": "./Assets/Flags/angola.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Angola",
-    "interestingFact": " Angola has a shortage of men, so common practice for a man is to have several wives.",
+    "interestingFact": " Angola has a shortage of men, so common practice for a man is to have several wives?",
     "region": "Africa",
     "longitude": "18.50",
     "latitude": "-13.20"
@@ -49,7 +49,7 @@
     "name": "Antigua",
     "flagPath": "./Assets/Flags/antigua.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Antigua",
-    "interestingFact": "Antigua has no rivers and no lakes. ",
+    "interestingFact": "Antigua has no rivers and no lakes?",
     "region": "America",
     "longitude": "-61.80",
     "latitude": "17.05"
@@ -58,7 +58,7 @@
     "name": "Argentina",
     "flagPath": "./Assets/Flags/argentina.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Argentina",
-    "interestingFact": "Argentina government banned parents from naming their children after Messi, worrying about confusion later down the line if the name was to become too fashionable. ",
+    "interestingFact": "Argentina government banned parents from naming their children after Messi, worrying about confusion later down the line if the name was to become too fashionable?",
     "region": "America",
     "longitude": "-65.36",
     "latitude": "-35.23"
@@ -67,7 +67,7 @@
     "name": "Australia",
     "flagPath": "./Assets/Flags/australia.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Australia",
-    "interestingFact": "Indian Pacific train has the longest straight section of train track in the world",
+    "interestingFact": "Indian Pacific train has the longest straight section of train track in the world?",
     "region": "Asia",
     "longitude": "135.00",
     "latitude": "-25.00"
@@ -513,9 +513,204 @@
     "longitude": "",
     "latitude": ""
   },
-
-
-
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
 
   {
     "name": "India",
