@@ -3,11 +3,18 @@ const btnSubmitRegion = document.getElementById("btnSubmitRegion");
 
 
 let region;
+btnSubmitRegion.disabled=true;
+btnSubmitRegion.classList.add("btnSubmitAnswerDisabled");
 
 regionCardBtn.forEach(btn =>{
         btn.addEventListener("click", (e) => {
-            regionCardBtn.forEach(b => b.classList.remove("regionCardClicked"));
+            regionCardBtn.forEach(b => {
+                b.innerText=b.dataset.region;
+                b.classList.remove("regionCardClicked")});
+            btnSubmitRegion.disabled=false;
+            btnSubmitRegion.classList.remove("btnSubmitAnswerDisabled");
             e.target.classList.add("regionCardClicked");
+            e.target.innerText="✓";
             region = e.target.dataset.region;
         });});
 

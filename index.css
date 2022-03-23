@@ -5,10 +5,13 @@
     --font-color-buttons: #ffffff;
     --font-color-text: #335F7B;
     --button-bg-color: #ff004b;
+    --button-bg-color-disabled: #f89eb8;
     --button-border-color: #000000;
     --info-elements-color: #9EF01A;
     --info-font-color:#000000;
     --card-bg-color: #ffffff;
+    --card-clicked-color: #9EF01A;
+    --card-clicked-shadow: #000000;
     --shadow-color: #4b4b4b;
     --header-footer-border-color: #000000;
 }
@@ -104,6 +107,10 @@ button{
     margin: 5px;
 }
 
+.btnSubmitAnswerDisabled{
+    background-color: var( --button-bg-color-disabled);
+}
+
 .resultCenterElement{
     width: 90vw;
     max-width: 1200px;
@@ -148,16 +155,15 @@ button{
     padding-top: 50px;
 }
 
-.navBtn, .regionCard,
-.countryCardClicked, .result-aside, .infoArticle,.imgCountry, #map{
+
+.navBtn, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
     border: var(--button-border-color) solid 1px;
     border-radius: 5px;
     box-shadow: 0 8px 8px -4px var(--shadow-color);
 }
 
 
- .regionCard,
- .countryCardClicked, .infoArticle{
+ .regionCard, .infoArticle{
      display: flex;
      flex-direction: column;
      justify-items: center;
@@ -185,12 +191,23 @@ button{
 
  .regionCardClicked, .countryCardClicked{
      border: var(--button-bg-color) solid 3px;
-     box-shadow: 0 8px 8px -4px var(--button-bg-color);
+     box-shadow: 5px 5px 15px 5px var(--button-bg-color);
+     border-radius: 5px;
+     font-size: 5rem;
+     color: var( --card-clicked-color);
+     text-shadow: 0 0 10px var(--card-clicked-shadow);
+     display: flex;
+     justify-content: center;
+     align-items: end;
  }
 
+.countryCard, .countryCardClicked{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+}
 
-
-.imgCountry, .countryCardClicked, #map{
+.countryCard, .countryCardClicked, #map{
     height: 200px;
     width: 300px;
     margin: 20px;
@@ -220,7 +237,7 @@ button{
     justify-content: center;
 }
 
-button:hover, .regionCard:hover, .imgCountry:hover{
+button:hover, .regionCard:hover, .countryCard:hover{
      cursor: pointer;
  }
 
