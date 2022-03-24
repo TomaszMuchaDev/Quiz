@@ -16,6 +16,7 @@ regionCardBtn.forEach(btn =>{
             e.target.classList.add("regionCardClicked");
             e.target.innerText="✓";
             region = e.target.dataset.region;
+            console.log(region);
         });});
 
 
@@ -26,15 +27,16 @@ btnSubmitRegion.addEventListener("click", ()=>{
     fetch("./countries.json")
         .then(response => response.json())
         .then(json =>{
-            getRandomGameCountesses(json, region);});
-            window.location="./game.html";
+            getRandomGameCountries(json, region);})
+        .then(r =>  window.location="./game.html")
+
     });
 
 
 
 // randomly pick 30 countries for given region
 // for one game round;
-function getRandomGameCountesses(countries, region){
+function  getRandomGameCountries(countries, region){
     let regionCountries=[];
 
     if(!region || region === "World")
@@ -62,7 +64,7 @@ function randomHandler(regionCountries){
 
     if(regionCountriesForDrawing.length>= 15)
     {
-        //TODO change number of drawn countries to 29
+      //TODO change number of drawn countries to 29
         for(let i=0; i<=14; i++)
         {
             const random =  Math.floor(Math.random()*regionCountriesForDrawing.length);
