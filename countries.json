@@ -639,7 +639,105 @@
     "longitude": "53.25",
     "latitude": "32.41"
   },
-
+  {
+    "name": "Iraq",
+    "flagPath": "./Assets/Flags/iraq.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Iraq",
+    "interestingFact": "it is offensive to eat with the left hand in Iraq?",
+    "region": "Asia",
+    "longitude": "43.83",
+    "latitude": "33.30"
+  },
+  {
+    "name": "Ireland",
+    "flagPath": "./Assets/Flags/ireland.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Ireland",
+    "interestingFact": "Ireland is one of the rare places in the world where you can’t find any snakes?",
+    "region": "Europe",
+    "longitude": "-8.00",
+    "latitude": "53.25"
+  },
+  {
+    "name": "Italy",
+    "flagPath": "./Assets/Flags/italy.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Italy",
+    "interestingFact": "the Ortona town in Italy has a free wine fountain that flows 24-hours a day with locally grown red wine?",
+    "region": "Europe",
+    "longitude": "14.29",
+    "latitude": "41.54"
+  },
+  {
+    "name": "Israel",
+    "flagPath": "./Assets/Flags/izrael.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Israel",
+    "interestingFact": "Israel has not only the lowest place is the world (the dead sea), but also World's lowest freshwater reservoir, the sea of Galilei?",
+    "region": "Asia",
+    "longitude": "35.13",
+    "latitude": "31.47"
+  },
+  {
+    "name": "Japan",
+    "flagPath": "./Assets/Flags/japan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Japan",
+    "interestingFact": "in Japan it’s considered inappropriate to blow your nose in public?",
+    "region": "Asia",
+    "longitude": "138.46",
+    "latitude": "36.41"
+  },
+  {
+    "name": "Kazakhstan",
+    "flagPath": "./Assets/Flags/kazakhstan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Kazakhstan",
+    "interestingFact": "half of Lake Balkhash, one of the largest lakes in the world, consists of fresh water, the other half of the salt water?",
+    "region": "Asia",
+    "longitude": "71.26",
+    "latitude": "48.10"
+  },
+  {
+    "name": "Kenya",
+    "flagPath": "./Assets/Flags/kenya.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Kenya",
+    "interestingFact": "Kenya’s Lamu Island, located off the northeast coast, is car-free?",
+    "region": "Africa",
+    "longitude": "38.48",
+    "latitude": "1.16"
+  },
+  {
+    "name": "Kiribati",
+    "flagPath": "./Assets/Flags/kiribati.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Kiribati",
+    "interestingFact": "Kiribati is the first country in the world to ring-in the New Year?",
+    "region": "Asia",
+    "longitude": "173.13",
+    "latitude": "1.38"
+  },
+  {
+    "name": "Kosovo",
+    "flagPath": "./Assets/Flags/kosovo.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Kosovo",
+    "interestingFact": "the national anthem of Kosovo, has no lyrics?",
+    "region": "Europe",
+    "longitude": "21.10",
+    "latitude": "42.40"
+  },
+  {
+    "name": "Kuwait",
+    "flagPath": "./Assets/Flags/kuwait.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Kuwait",
+    "interestingFact": "camel racing is popular in Kuwait and since 2005 races using robots as jockeys after children were banned from the sport?",
+    "region": "Asia",
+    "longitude": "47.58",
+    "latitude": "29.22"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "flagPath": "./Assets/Flags/kyrgyzstan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Kyrgyzstan",
+    "interestingFact": "Kyrgyzstan produced the longest poem in history? The Epic of Mana has 500,000 lines!",
+    "region": "Asia",
+    "longitude": "74.36",
+    "latitude": "41.52"
+  },
 
   {
     "name": "Poland",

@@ -47,5 +47,5 @@ function handleMapDisplay(lng, lat){
 
 // result page
 if(resultFlag){
-    handleResult(70);
+    handleResult(81);
 }

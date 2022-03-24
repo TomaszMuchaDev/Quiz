@@ -14,17 +14,40 @@ btnSubmitAnswer.classList.add("btnSubmitAnswerDisabled");
 const region = localStorage.getItem("region");
 regionMessage.innerText = "Region is " + region  + ".";
 
-countryCard.forEach(btn =>{
-    btn.addEventListener("click", (e)=>{
-        btnSubmitAnswer.disabled=false;
-        btnSubmitAnswer.classList.remove("btnSubmitAnswerDisabled");
-        countryCard.forEach(b =>{
-            b.classList.remove("countryCardClicked");
-            b.innerText="";});
-        clickedFlag = e.target.dataset.flag;
-        e.target.classList.add("countryCardClicked");
-        e.target.innerText="✓";
-    })});
+
+flagOne.addEventListener("click", handleFlagOneClick);
+flagTwo.addEventListener("click", handleFlagTwoClick);
+flagThree.addEventListener("click", handleFlagThreeClick);
+
+
+function handleFlagOneClick(e){
+    handleClickedFlags(e);
+    clickedFlag = e.target.dataset.flag;
+    console.log("flag one clicked");
+}
+
+function handleFlagTwoClick(e){
+    handleClickedFlags(e);
+    clickedFlag = e.target.dataset.flag;
+    console.log("flag two clicked");
+}
+
+function handleFlagThreeClick(e){
+    handleClickedFlags(e);
+    clickedFlag = e.target.dataset.flag;
+    console.log("flag three clicked");
+}
+
+
+function handleClickedFlags(e){
+    btnSubmitAnswer.disabled=false;
+    btnSubmitAnswer.classList.remove("btnSubmitAnswerDisabled");
+    countryCard.forEach(b =>{
+        b.classList.remove("countryCardClicked");
+        b.innerText="";});
+    e.target.classList.add("countryCardClicked");
+    e.target.innerText="✓";
+}
 
 
 const drawnCountries = JSON.parse(localStorage.getItem("drawnCountries"));
@@ -58,8 +81,8 @@ btnSubmitAnswer.addEventListener("click", ()=>{
     {
         // clicked flag is only id change to country object
 
-        console.log(clickedFlag);
-       // localStorage.setItem("answerCountry", JSON.stringify(clickedFlag));
+        console.log("flag submitted is " + clickedFlag);
+       // localStorage.setItem("answerCountry", JSON.stringify());
        // window.location = "./result.html";
     }
 
