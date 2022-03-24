@@ -3,9 +3,16 @@ const resultFact = document.getElementById("resultFact");
 const resultBtnWiki = document.getElementById("resultBtnWiki");
 const resultMsg = document.getElementById("resultMsg");
 const regionMessage = document.getElementById("regionMessage");
+const correctMsg = document.getElementById("correctMsg");
 
 
-function handleResult (countryNumber){
+
+//checkCountryData(81);
+handleResult();
+
+// TODO remove function after all countries will be added
+
+function checkCountryData (countryNumber){
     fetch("./countries.json")
         .then(response => response.json())
         .then(json => {
@@ -28,6 +35,31 @@ function handleResult (countryNumber){
         });
 }
 
+function handleResult (){
+   const winningCountry = JSON.parse(localStorage.getItem("winningCountry"));
+   const answerCountry = JSON.parse(localStorage.getItem("answerCountry"));
+
+          if(winningCountry.name === answerCountry.name)
+          {
+              correctMsg.innerText = "Correct!!!";
+          }
+          else
+          {
+              correctMsg.innerText =  "No luck this time.";
+          }
+
+            resultFlag.src = winningCountry.flagPath;
+            resultFact.innerText = "Do you know that " + winningCountry.interestingFact;
+            resultBtnWiki.addEventListener("click", ()=>{
+                window.open(winningCountry.wikiLink);
+            });
+            const regionForMessage = winningCountry.region === "Asia" ? "Asia and Australia" : winningCountry.region;
+            regionMessage.innerText = "Region is " + regionForMessage + ".";
+            resultBtnWiki.innerText = winningCountry.name + " info";
+            resultMsg.innerText = `This is flag of ${winningCountry.name}.
+            Click button below to find out more about this country.`;
+            handleMapDisplay(winningCountry.longitude, winningCountry.latitude);
+}
 
 function handleMapDisplay(lng, lat){
     mapboxgl.accessToken = 'pk.eyJ1IjoidG9tYXN6bXVjaGEiLCJhIjoiY2wwdG1zMDN6MDE4aDNjbzg3cnZqNzhwcSJ9.D5dv2MRT52aVyObLS_gAiw';
@@ -45,7 +77,4 @@ function handleMapDisplay(lng, lat){
         .addTo(map);
 }
 
-// result page
-if(resultFlag){
-    handleResult(81);
-}
+

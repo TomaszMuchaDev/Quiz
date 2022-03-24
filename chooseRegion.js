@@ -3,6 +3,10 @@ const btnSubmitRegion = document.getElementById("btnSubmitRegion");
 
 
 let region;
+localStorage.setItem("actualScore", 0);
+localStorage.setItem("actualQuestionNumber", 0);
+
+
 btnSubmitRegion.disabled=true;
 btnSubmitRegion.classList.add("btnSubmitAnswerDisabled");
 
