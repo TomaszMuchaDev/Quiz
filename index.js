@@ -1,17 +1,17 @@
 const btnLogin = document.getElementById("btnLogin");
 const btnRegister= document.getElementById("btnRegister");
 const pointsMessage = document.getElementById("pointsMessage");
-const nameInput = document.getElementById("nameInput");
+const usernameInput = document.getElementById("usernameInput");
 const passwordInput= document.getElementById("passwordInput");
 
 
 let player ={};
+const playersLocalStorageArray = JSON.parse(localStorage.getItem("playersArray"));
 
 // login page and register page
 if (btnLogin || btnRegister) {
-        pointsMessage.innerText = "Welcome";
-    nameInput.addEventListener('input', (e) => {
-        player.name  = e.target.value;
+    usernameInput.addEventListener('input', (e) => {
+        player.username  = e.target.value;
         });
     passwordInput.addEventListener("input", (e)=>{
         player.password = e.target.value;
@@ -21,7 +21,6 @@ if (btnLogin || btnRegister) {
 
 
 // login page
-
 if (btnLogin){
     btnLogin.addEventListener("click", handleLogin);
 }
@@ -29,7 +28,6 @@ if (btnLogin){
 
 
 //register page
-
 if(btnRegister)
 {
     btnRegister.addEventListener("click", handleRegister);
@@ -38,12 +36,12 @@ if(btnRegister)
 
 
 function handleLogin() {
-    const playersLocalStorageArray = JSON.parse(localStorage.getItem("playersArray"));
+
 
     if(playersLocalStorageArray)
     {
-        playersLocalStorageArray .map(p=>{
-            if(p.name === player.name && p.password === player.password)
+        playersLocalStorageArray.map(p=>{
+            if(p.username=== player.username && p.password === player.password)
             {
                 window.location="./chooseRegion.html";
             }
@@ -64,6 +62,33 @@ function handleLogin() {
 
 function handleRegister(e){
 
-    window.location="./chooseRegion.html";
+   let playersArray=[];
+   if(playersLocalStorageArray)
+   {
+       playersArray = [...playersLocalStorageArray];
+   }
+
+     if(player.username && player.password)
+      {
+
+        const userExist =  playersArray.filter(p=>p.username === player.username);
+            if (userExist.length >0)
+            {
+                alert("Sorry " + player.username + " is already used, please choose another username.");
+            }
+            else
+            {
+                playersArray.push(player);
+                localStorage.setItem("playersArray", JSON.stringify(playersArray));
+                alert("Your account created successfully.");
+                window.location="./chooseRegion.html";
+            }
+      }
+     else
+      {
+          alert("Please input username and password.");
+      }
+
+
 }
 
