@@ -73,6 +73,7 @@ function drawCountriesForQuestion(){
         flags[i].style.backgroundImage = `url('${drawnCountries[random].flagPath}')`;
         drawnCountries.splice(random, 1);
     }
+    localStorage.setItem("drawnCountries", JSON.stringify(drawnCountries));
     drawWinningCountry(countriesForRound);
 }
 

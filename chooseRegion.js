@@ -3,8 +3,8 @@ const btnSubmitRegion = document.getElementById("btnSubmitRegion");
 
 
 let region;
-localStorage.setItem("actualScore", 0);
-localStorage.setItem("actualQuestionNumber", 0);
+localStorage.setItem("actualScore", "0");
+localStorage.setItem("actualQuestionNumber", "0");
 
 
 btnSubmitRegion.disabled=true;
@@ -13,14 +13,21 @@ btnSubmitRegion.classList.add("btnSubmitAnswerDisabled");
 regionCardBtn.forEach(btn =>{
         btn.addEventListener("click", (e) => {
             regionCardBtn.forEach(b => {
-                b.innerText=b.dataset.region;
-                b.classList.remove("regionCardClicked")});
+               if (b.dataset.region === "Asia")
+               {
+                   b.innerText = "Asia and Australia";
+               }
+               else
+               {
+                   b.innerText=b.dataset.region;
+               }
+               b.classList.remove("regionCardClicked")});
+
             btnSubmitRegion.disabled=false;
             btnSubmitRegion.classList.remove("btnSubmitAnswerDisabled");
             e.target.classList.add("regionCardClicked");
             e.target.innerText="✓";
             region = e.target.dataset.region;
-            console.log(region);
         });});
 
 
@@ -38,8 +45,8 @@ btnSubmitRegion.addEventListener("click", ()=>{
 
 
 
-// randomly pick 30 countries for given region
-// for one game round;
+
+// get countries by chosen region
 function  getRandomGameCountries(countries, region){
     let regionCountries=[];
 
@@ -59,7 +66,7 @@ function  getRandomGameCountries(countries, region){
 }
 
 
-
+// randomly pick 30 countries for given region
 function randomHandler(regionCountries){
  const drawnCountries=[];
  const regionCountriesForDrawing =[...regionCountries];

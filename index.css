@@ -26,6 +26,11 @@ h1, h2, h3, p{
     text-align: center;
 }
 
+
+h1{
+    font-size: 1.8rem;
+}
+
 footer, header{
     background-color: var(--secondary-bg-color);
     color: var(--font-color-buttons);
@@ -247,8 +252,12 @@ button:hover, .regionCard:hover, .countryCard:hover{
         width: 100vw;
     }
 
-    h1, button, .navBtn{
+    button, .navBtn{
         font-size: 1.0rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
     }
 
     .infoArticle{

@@ -4,7 +4,10 @@ const resultBtnWiki = document.getElementById("resultBtnWiki");
 const resultMsg = document.getElementById("resultMsg");
 const regionMessage = document.getElementById("regionMessage");
 const correctMsg = document.getElementById("correctMsg");
+const btnNextQuestion = document.getElementById("btnNextQuestion");
 
+
+btnNextQuestion.addEventListener("click", handleNextQuestionBtn)
 
 
 //checkCountryData(81);
@@ -34,6 +37,21 @@ function checkCountryData (countryNumber){
             handleMapDisplay(lng, lat);
         });
 }
+
+
+function handleNextQuestionBtn(e){
+    let actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
+
+    if(actualQuestionNumber>=5)
+    {
+        window.location="./score.html";
+    }
+    else
+    {
+        window.location="./game.html";
+    }
+}
+
 
 function handleResult (){
    const winningCountry = JSON.parse(localStorage.getItem("winningCountry"));
