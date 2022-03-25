@@ -5,6 +5,10 @@ const flagTwo= document.getElementById("flagTwo");
 const flagThree = document.getElementById("flagThree");
 const questionCountry = document.getElementById("questionCountry");
 const btnSubmitAnswer =document.getElementById("btnSubmitAnswer");
+const pointsMessage = document.getElementById("pointsMessage");
+
+
+
 
 
 flagOne.addEventListener("click", handleFlagOneClick);
@@ -24,6 +28,9 @@ drawCountriesForQuestion();
 
 
 function initialFunction(){
+    const actualScore = parseInt(localStorage.getItem("actualScore"));
+    const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
+    pointsMessage.innerText=`Score ${actualScore}/${actualQuestionNumber} `;
     btnSubmitAnswer.disabled=true;
     btnSubmitAnswer.classList.add("btnSubmitAnswerDisabled");
     const region = localStorage.getItem("region");

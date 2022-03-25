@@ -1,3 +1,4 @@
+const pointsMessage = document.getElementById("pointsMessage");
 const resultFlag = document.getElementById("resultFlag");
 const resultFact = document.getElementById("resultFact");
 const resultBtnWiki = document.getElementById("resultBtnWiki");
@@ -7,41 +8,39 @@ const correctMsg = document.getElementById("correctMsg");
 const btnNextQuestion = document.getElementById("btnNextQuestion");
 
 
-btnNextQuestion.addEventListener("click", handleNextQuestionBtn)
-
+btnNextQuestion.addEventListener("click", handleNextQuestionBtn);
+const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
 
 //checkCountryData(81);
 handleResult();
 
 // TODO remove function after all countries will be added
-
-function checkCountryData (countryNumber){
-    fetch("./countries.json")
-        .then(response => response.json())
-        .then(json => {
-            const name = json[countryNumber].name;
-            const interestingFact = json[countryNumber].interestingFact;
-            const wikiLink = json[countryNumber].wikiLink;
-            const lng = json[countryNumber].longitude;
-            const lat = json[countryNumber].latitude;
-            resultFlag.src = json[countryNumber].flagPath;
-            resultFact.innerText = "Do you know that " + interestingFact;
-            resultBtnWiki.addEventListener("click", ()=>{
-                window.open(wikiLink);
-            });
-            const regionForMessage = json[countryNumber].region === "Asia" ? "Asia and Australia" : json[countryNumber].region;
-            regionMessage.innerText = "Region is " + regionForMessage + ".";
-            resultBtnWiki.innerText = name + " info";
-            resultMsg.innerText = `This is flag of ${name}.
-            Click button below to find out more about this country.`;
-            handleMapDisplay(lng, lat);
-        });
-}
+//
+// function checkCountryData (countryNumber){
+//     fetch("./countries.json")
+//         .then(response => response.json())
+//         .then(json => {
+//             const name = json[countryNumber].name;
+//             const interestingFact = json[countryNumber].interestingFact;
+//             const wikiLink = json[countryNumber].wikiLink;
+//             const lng = json[countryNumber].longitude;
+//             const lat = json[countryNumber].latitude;
+//             resultFlag.src = json[countryNumber].flagPath;
+//             resultFact.innerText = "Do you know that " + interestingFact;
+//             resultBtnWiki.addEventListener("click", ()=>{
+//                 window.open(wikiLink);
+//             });
+//             const regionForMessage = json[countryNumber].region === "Asia" ? "Asia and Australia" : json[countryNumber].region;
+//             regionMessage.innerText = "Region is " + regionForMessage + ".";
+//             resultBtnWiki.innerText = name + " info";
+//             resultMsg.innerText = `This is flag of ${name}.
+//             Click button below to find out more about this country.`;
+//             handleMapDisplay(lng, lat);
+//         });
+// }
 
 
 function handleNextQuestionBtn(e){
-    let actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
-
     if(actualQuestionNumber>=5)
     {
         window.location="./score.html";
@@ -56,27 +55,30 @@ function handleNextQuestionBtn(e){
 function handleResult (){
    const winningCountry = JSON.parse(localStorage.getItem("winningCountry"));
    const answerCountry = JSON.parse(localStorage.getItem("answerCountry"));
+   const actualScore = parseInt(localStorage.getItem("actualScore"));
 
-          if(winningCountry.name === answerCountry.name)
-          {
-              correctMsg.innerText = "Correct!!!";
-          }
-          else
-          {
-              correctMsg.innerText =  "No luck this time.";
-          }
+      if(winningCountry.name === answerCountry.name)
+      {
+          correctMsg.innerText = "Correct!!!";
+      }
+      else
+      {
+          correctMsg.innerText =  "No luck this time.";
+      }
 
-            resultFlag.src = winningCountry.flagPath;
-            resultFact.innerText = "Do you know that " + winningCountry.interestingFact;
-            resultBtnWiki.addEventListener("click", ()=>{
-                window.open(winningCountry.wikiLink);
-            });
-            const regionForMessage = winningCountry.region === "Asia" ? "Asia and Australia" : winningCountry.region;
-            regionMessage.innerText = "Region is " + regionForMessage + ".";
-            resultBtnWiki.innerText = winningCountry.name + " info";
-            resultMsg.innerText = `This is flag of ${winningCountry.name}.
-            Click button below to find out more about this country.`;
-            handleMapDisplay(winningCountry.longitude, winningCountry.latitude);
+        resultFlag.src = winningCountry.flagPath;
+        resultFact.innerText = "Do you know that " + winningCountry.interestingFact;
+        resultBtnWiki.addEventListener("click", ()=>{
+            window.open(winningCountry.wikiLink);
+        });
+
+        pointsMessage.innerText=`Score ${actualScore}/${actualQuestionNumber} `
+        const regionForMessage = winningCountry.region === "Asia" ? "Asia and Australia" : winningCountry.region;
+        regionMessage.innerText = "Region is " + regionForMessage + ".";
+        resultBtnWiki.innerText = winningCountry.name + " info";
+        resultMsg.innerText = `This is flag of ${winningCountry.name}.
+        Click button below to find out more about this country.`;
+        handleMapDisplay(winningCountry.longitude, winningCountry.latitude);
 }
 
 function handleMapDisplay(lng, lat){
@@ -85,7 +87,7 @@ function handleMapDisplay(lng, lat){
         container: 'map', // container ID
         style: 'mapbox://styles/mapbox/streets-v11', // style URL
         center: [lng, lat], // starting position [lng, lat]
-        zoom: 5 // starting zoom
+        zoom: 1 // starting zoom
     });
 
     const nav = new mapboxgl.NavigationControl();
