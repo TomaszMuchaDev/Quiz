@@ -11,33 +11,42 @@ const btnNextQuestion = document.getElementById("btnNextQuestion");
 btnNextQuestion.addEventListener("click", handleNextQuestionBtn);
 const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
 
-//checkCountryData(81);
-handleResult();
+checkCountryData(92);
+//handleResult();
 
 // TODO remove function after all countries will be added
-//
-// function checkCountryData (countryNumber){
-//     fetch("./countries.json")
-//         .then(response => response.json())
-//         .then(json => {
-//             const name = json[countryNumber].name;
-//             const interestingFact = json[countryNumber].interestingFact;
-//             const wikiLink = json[countryNumber].wikiLink;
-//             const lng = json[countryNumber].longitude;
-//             const lat = json[countryNumber].latitude;
-//             resultFlag.src = json[countryNumber].flagPath;
-//             resultFact.innerText = "Do you know that " + interestingFact;
-//             resultBtnWiki.addEventListener("click", ()=>{
-//                 window.open(wikiLink);
-//             });
-//             const regionForMessage = json[countryNumber].region === "Asia" ? "Asia and Australia" : json[countryNumber].region;
-//             regionMessage.innerText = "Region is " + regionForMessage + ".";
-//             resultBtnWiki.innerText = name + " info";
-//             resultMsg.innerText = `This is flag of ${name}.
-//             Click button below to find out more about this country.`;
-//             handleMapDisplay(lng, lat);
-//         });
-// }
+
+function checkCountryData (countryNumber){
+    fetch("./countries.json")
+        .then(response => response.json())
+        .then(json => {
+                let nr=0;
+            json.map(c=>{
+                if(c.region)
+                {
+                    nr += 1;
+                    console.log(c.name);
+                    console.log(nr);
+                }
+            })
+            const name = json[countryNumber].name;
+            const interestingFact = json[countryNumber].interestingFact;
+            const wikiLink = json[countryNumber].wikiLink;
+            const lng = json[countryNumber].longitude;
+            const lat = json[countryNumber].latitude;
+            resultFlag.src = json[countryNumber].flagPath;
+            resultFact.innerText = "Do you know that " + interestingFact;
+            resultBtnWiki.addEventListener("click", ()=>{
+                window.open(wikiLink);
+            });
+            const regionForMessage = json[countryNumber].region === "Asia" ? "Asia and Australia" : json[countryNumber].region;
+            regionMessage.innerText = "Region is " + regionForMessage + ".";
+            resultBtnWiki.innerText = name + " info";
+            resultMsg.innerText = `This is flag of ${name}.
+            Click button below to find out more about this country.`;
+            handleMapDisplay(lng, lat);
+        });
+}
 
 
 function handleNextQuestionBtn(e){

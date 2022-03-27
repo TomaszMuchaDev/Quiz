@@ -76,7 +76,7 @@
     "name": "Austria",
     "flagPath": "./Assets/Flags/austria.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Austria",
-    "interestingFact": "Vienna has the oldest zoo in the world which was founded in 1752.",
+    "interestingFact": "Vienna has the oldest zoo in the world which was founded in 1752?",
     "region": "Europe",
     "longitude": "15.01",
     "latitude": "47.52"
@@ -85,7 +85,7 @@
     "name": "Azerbaijan",
     "flagPath": "./Assets/Flags/azerbaijan.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Azerbaijan",
-    "interestingFact": "Azerbaijan has the museum with the world’s largest collection of miniature books with more than 5,500 teeny tiny books on display. ",
+    "interestingFact": "Azerbaijan has the museum with the world’s largest collection of miniature books with more than 5,500 teeny tiny books on display? ",
     "region": "Asia",
     "longitude": "47.32",
     "latitude": "40.23"
@@ -103,7 +103,7 @@
     "name": "Bahrain",
     "flagPath": "./Assets/Flags/bahrain.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Bahrain",
-    "interestingFact": "Bahrain was historically famed for its pearl fisheries, which were considered to be among the best in the world.",
+    "interestingFact": "Bahrain was historically famed for its pearl fisheries, which were considered to be among the best in the world?",
     "region": "Asia",
     "longitude": "50.55",
     "latitude": "26.01"
@@ -121,7 +121,7 @@
     "name": "Barbados",
     "flagPath": "./Assets/Flags/barbados.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Barbados",
-    "interestingFact": "Barbados is the birthplace of rum, Mount Gay Distilleries has been churning out rum since 1703. ",
+    "interestingFact": "Barbados is the birthplace of rum? Mount Gay Distilleries has been churning out rum since 1703. ",
     "region": "America",
     "longitude": "-59.51",
     "latitude": "13.13"
@@ -130,7 +130,7 @@
     "name": "Belarus",
     "flagPath": "./Assets/Flags/belarus.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Belarus",
-    "interestingFact": "Belarusians love a good superstition. A particularly popular one is that you should never whistle in your house or you’ll blow all your money away. ",
+    "interestingFact": "Belarusians love a good superstition? A particularly popular one is that you should never whistle in your house or you’ll blow all your money away. ",
     "region": "Europe",
     "longitude": "27.33",
     "latitude": "53.55"
@@ -148,7 +148,7 @@
     "name": "Belize",
     "flagPath": "./Assets/Flags/belize.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Belize",
-    "interestingFact": "Many Belizeans avoid swimming in the ocean or rivers on Good Friday; it is viewed as bad luck. Local Mothers can often be heard telling their kids they “will turn fish!” if they swim on this day!",
+    "interestingFact": "many Belizeans avoid swimming in the ocean or rivers on Good Friday? It is viewed as bad luck. Local Mothers can often be heard telling their kids they “will turn fish!” if they swim on this day!",
     "region": "America",
     "longitude": "-88.80",
     "latitude": "17.05"
@@ -157,7 +157,7 @@
     "name": "Bermuda",
     "flagPath": "./Assets/Flags/bermuda.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Bermuda",
-    "interestingFact": "Bermuda is the Shipwreck Capital of the World, to date, over 300 wrecks have been found dating back to the 1600s.",
+    "interestingFact": "Bermuda is the Shipwreck Capital of the World? To date, over 300 wrecks have been found dating back to the 1600s.",
     "region": "America",
     "longitude": "-64.77",
     "latitude": "32.30"
@@ -175,7 +175,7 @@
     "name": "Brazil",
     "flagPath": "./Assets/Flags/brazil.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Brazil",
-    "interestingFact": "Brazil has the biggest carnival in the world. The Rio Carnival in Rio de Janeiro sees 2 million people.",
+    "interestingFact": "Brazil has the biggest carnival in the world? The Rio Carnival in Rio de Janeiro sees 2 million people.",
     "region": "America",
     "longitude": "-49.38",
     "latitude": "-13.33"
@@ -193,7 +193,7 @@
     "name": "Bulgaria",
     "flagPath": "./Assets/Flags/bulgaria.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Bulgaria",
-    "interestingFact": "Bulgarians express approval by shaking their heads rather than nodding. Weird, huh.",
+    "interestingFact": "Bulgarians express approval by shaking their heads rather than nodding? Weird, huh.",
     "region": "Europe",
     "longitude": "25.41",
     "latitude": "42.19"
@@ -202,7 +202,7 @@
     "name": "Burkina Faso",
     "flagPath": "./Assets/Flags/burkinaFaso.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Burkina_Faso",
-    "interestingFact": " the people love the horses in Burkina Faso. The White Stallion is the country’s national symbol. ",
+    "interestingFact": " the people love the horses in Burkina Faso? The White Stallion is the country’s national symbol. ",
     "region": "Africa",
     "longitude": "-1.22",
     "latitude": "12.32"
@@ -220,7 +220,7 @@
     "name": "Bhutan",
     "flagPath": "./Assets/Flags/buthan.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Bhutan",
-    "interestingFact": "Paro is known as the most dangerous airport to land on in the whole world. Only 8 trained pilots are allowed to do this.",
+    "interestingFact": "Paro is known as the most dangerous airport to land on in the whole world? Only 8 trained pilots are allowed to do this.",
     "region": "Asia",
     "longitude": "90.38",
     "latitude": "27.28"
@@ -256,7 +256,7 @@
     "name": "Cayman Islands",
     "flagPath": "./Assets/Flags/caymanIslands.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Cayman_Islands",
-    "interestingFact": "in Cayman Islands is a dive site for every day of the year",
+    "interestingFact": "in Cayman Islands is a dive site for every day of the year?",
     "region": "America",
     "longitude": "-81.24",
     "latitude": "19.30"
@@ -274,7 +274,7 @@
     "name": "Chile",
     "flagPath": "./Assets/Flags/chile.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Chile",
-    "interestingFact": "the Atacama Desert is one of the driest places in the world, there are areas that go hundreds of years without receiving any rain at all.",
+    "interestingFact": "the Atacama Desert is one of the driest places in the world? There are areas that go hundreds of years without receiving any rain at all.",
     "region": "America",
     "longitude": "-70.90",
     "latitude": "-33.26"
@@ -481,7 +481,7 @@
     "name": "Finland",
     "flagPath": "./Assets/Flags/finland.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Finland",
-    "interestingFact": "in Finland, they have ‘National Sleepy Head Day’, where the last person in a family to wake up is thrown into a lake by the rest of the family.",
+    "interestingFact": "in Finland, they have ‘National Sleepy Head Day’, where the last person in a family to wake up is thrown into a lake by the rest of the family?",
     "region": "Europe",
     "longitude": "26.96",
     "latitude": "65.10"
@@ -616,7 +616,7 @@
     "name": "India",
     "flagPath": "./Assets/Flags/india.png",
     "wikiLink": "https://en.wikipedia.org/wiki/India",
-    "interestingFact": "Rajasthan has a Temple of Rats!",
+    "interestingFact": "Rajasthan has a Temple of Rats?",
     "region": "Asia",
     "longitude": "77.12",
     "latitude": "18.36"
@@ -738,7 +738,105 @@
     "longitude": "74.36",
     "latitude": "41.52"
   },
-
+  {
+    "name": "Lebanon",
+    "flagPath": "./Assets/Flags/lebanon.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Lebanon",
+    "interestingFact": "Lebanon is one of the world’s oldest countries with thousands of years of history?",
+    "region": "Asia",
+    "longitude": "35.52",
+    "latitude": "33.54"
+  },
+  {
+    "name": "Lesotho",
+    "flagPath": "./Assets/Flags/lesotho.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Lesotho",
+    "interestingFact": "Lesotho has the “highest lowest point” of any country. No other nation can claim a base altitude as lofty as 1,400m!",
+    "region": "Africa",
+    "longitude": "28.66",
+    "latitude": "-29.28"
+  },
+  {
+    "name": "Libya",
+    "flagPath": "./Assets/Flags/libya.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Libya",
+    "interestingFact": " over 90% of Libya is desert or semidesert?",
+    "region": "Africa",
+    "longitude": "18.11",
+    "latitude": "25.52"
+  },
+  {
+    "name": "Liechtenstein",
+    "flagPath": "./Assets/Flags/liechtenstein.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Liechtenstein",
+    "interestingFact": "Liechtenstein’s capital city, Vaduz has a population of around 5,425, and the largest city in the country has population of 6008 people?",
+    "region": "Europe",
+    "longitude": "9.55",
+    "latitude": "47.15"
+  },
+  {
+    "name": "Lithuania",
+    "flagPath": "./Assets/Flags/lithuania.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Lithuania",
+    "interestingFact": "Lithuania is that they celebrate not one but two independence days? Each one commemorates a break from external rule. ",
+    "region": "Europe",
+    "longitude": "24.19",
+    "latitude": "55.41"
+  },
+  {
+    "name": "Macau",
+    "flagPath": "./Assets/Flags/macau.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Macau",
+    "interestingFact": "Macau is 100% urbanised and is the number one most highly densely populated country in the world?",
+    "region": "Asia",
+    "longitude": "113.53",
+    "latitude": "22.10"
+  },
+  {
+    "name": "Macedonia",
+    "flagPath": "./Assets/Flags/macedonia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/North_Macedonia",
+    "interestingFact": "until the modern era (mid 20th century) Macedonian was only a spoken language?",
+    "region": "Europe",
+    "longitude": "21.66",
+    "latitude": "41.50"
+  },
+  {
+    "name": "Madagascar",
+    "flagPath": "./Assets/Flags/madagascar.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Madagascar",
+    "interestingFact": "Madagascar  men and women wear the same clothes? It is a rectangular length of cloth wrapped around the body.",
+    "region": "Africa",
+    "longitude": "47.00",
+    "latitude": "-20.00"
+  },
+  {
+    "name": "Malawi",
+    "flagPath": "./Assets/Flags/malawi.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Malawi",
+    "interestingFact": "a  2.5 million years old hominid jawbone was discovered in Malawi? This is the oldest evidence of the genus Homo ever discovered.",
+    "region": "Africa",
+    "longitude": "34.00",
+    "latitude": "-13.30"
+  },
+  {
+    "name": "Malaysia",
+    "flagPath": "./Assets/Flags/malaysia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Malaysia",
+    "interestingFact": "Malaysia follows a unique rotating monarchy system? According to which nine ethnic Malay state rulers take turns to become the king for a term of five years.",
+    "region": "Asia",
+    "longitude": "102.00",
+    "latitude": "4.00"
+  },
+  {
+    "name": "Mali",
+    "flagPath": "./Assets/Flags/mali.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Mali",
+    "interestingFact": "Mansa Musa, who was king of the Mali Empire from 1280 to 1337, is believed to be the wealthiest man who has ever lived?",
+    "region": "Africa",
+    "longitude": "-2.00",
+    "latitude": "17.00"
+  },
   {
     "name": "Poland",
     "flagPath": "./Assets/Flags/poland.png",

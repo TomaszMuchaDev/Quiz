@@ -237,6 +237,9 @@ button{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.btnInfo{
+    width: 160px;
+}
 
 .buttonBottom{
     justify-content: center;
