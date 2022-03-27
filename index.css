@@ -31,6 +31,11 @@ h1{
     font-size: 1.8rem;
 }
 
+li{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
 footer, header{
     background-color: var(--secondary-bg-color);
     color: var(--font-color-buttons);

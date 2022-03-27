@@ -41,9 +41,13 @@ function handleLogin() {
     if(playersLocalStorageArray)
     {
         playersLocalStorageArray.map(p=>{
-            if(p.username=== player.username && p.password === player.password)
+            if(p.username === player.username && p.password === player.password)
             {
-                window.location="./chooseRegion.html";
+               localStorage.setItem("actualPlayer", JSON.stringify(p));
+               setTimeout(()=>{
+                   window.location="./chooseRegion.html";
+               }, 200);
+
             }
             else
             {
@@ -60,7 +64,7 @@ function handleLogin() {
 }
 
 
-function handleRegister(e){
+function handleRegister(){
 
    let playersArray=[];
    if(playersLocalStorageArray)
@@ -78,7 +82,10 @@ function handleRegister(e){
             }
             else
             {
+                player.actualScore = 0;
+                player.topScore = 0;
                 playersArray.push(player);
+                localStorage.setItem("actualPlayer", JSON.stringify(player));
                 localStorage.setItem("playersArray", JSON.stringify(playersArray));
                 alert("Your account created successfully.");
                 window.location="./chooseRegion.html";

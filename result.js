@@ -49,7 +49,7 @@ handleResult();
 // }
 
 
-function handleNextQuestionBtn(e){
+function handleNextQuestionBtn(){
     if(actualQuestionNumber>=5)
     {
         window.location="./score.html";
@@ -62,11 +62,13 @@ function handleNextQuestionBtn(e){
 
 
 function handleResult (){
-   const winningCountry = JSON.parse(localStorage.getItem("winningCountry"));
    const answerCountry = JSON.parse(localStorage.getItem("answerCountry"));
-   const actualScore = parseInt(localStorage.getItem("actualScore"));
+   const {username, actualScore} = JSON.parse(localStorage.getItem("actualPlayer"));
+   const {name, region, longitude, latitude, wikiLink, interestingFact, flagPath }
+       = JSON.parse(localStorage.getItem("winningCountry"));
 
-      if(winningCountry.name === answerCountry.name)
+
+      if(name === answerCountry.name)
       {
           correctMsg.innerText = "Correct!!!";
       }
@@ -75,19 +77,19 @@ function handleResult (){
           correctMsg.innerText =  "No luck this time.";
       }
 
-        resultFlag.src = winningCountry.flagPath;
-        resultFact.innerText = "Do you know that " + winningCountry.interestingFact;
+        resultFlag.src = flagPath;
+        resultFact.innerText = "Do you know that " + interestingFact;
         resultBtnWiki.addEventListener("click", ()=>{
-            window.open(winningCountry.wikiLink);
+            window.open(wikiLink);
         });
 
-        pointsMessage.innerText=`Score ${actualScore}/${actualQuestionNumber} `
-        const regionForMessage = winningCountry.region === "Asia" ? "Asia and Australia" : winningCountry.region;
+        pointsMessage.innerText=`${username} you scored ${actualScore}/${actualQuestionNumber} `;
+        const regionForMessage = region === "Asia" ? "Asia and Australia" : region;
         regionMessage.innerText = "Region is " + regionForMessage + ".";
-        resultBtnWiki.innerText = winningCountry.name + " info";
-        resultMsg.innerText = `This is flag of ${winningCountry.name}.
+        resultBtnWiki.innerText = name + " info";
+        resultMsg.innerText = `This is flag of ${name}.
         Click button below to find out more about this country.`;
-        handleMapDisplay(winningCountry.longitude, winningCountry.latitude);
+        handleMapDisplay(longitude, latitude);
 }
 
 function handleMapDisplay(lng, lat){

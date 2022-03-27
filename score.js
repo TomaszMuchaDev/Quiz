@@ -3,15 +3,21 @@ const scoreMsg= document.getElementById("scoreMsg");
 const scoreTable= document.getElementById("scoreTable");
 
 
-
-const actualScore = parseInt(localStorage.getItem("actualScore"));
 const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
+const playersArray = JSON.parse(localStorage.getItem("playersArray"));
 
-pointsMessage.innerText=`Score ${actualScore}/${actualQuestionNumber} `
+const {username, actualScore} = JSON.parse(localStorage.getItem("actualPlayer"));
+pointsMessage.innerText=`${username} you scored ${actualScore}/${actualQuestionNumber} `;
+
+
 scoreMsg.innerText=`You scored ${actualScore} out of ${actualQuestionNumber} !
     Your personal best is ${actualScore} !!!`;
 
-scoreTable.innerText= `Tomasz ${actualScore}
-Tomasz ${actualScore}
-Tomasz ${actualScore}
-Tomasz ${actualScore}`
+
+
+playersArray.forEach(p=>{
+    const li = document.createElement("li");
+    li.appendChild(document.createTextNode(`${p.username} top score ${p.topScore ? p.topScore : "0"} points`));
+    scoreTable.appendChild(li);
+})
+

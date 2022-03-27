@@ -3,8 +3,10 @@ const btnSubmitRegion = document.getElementById("btnSubmitRegion");
 
 
 let region;
-localStorage.setItem("actualScore", "0");
 localStorage.setItem("actualQuestionNumber", "0");
+let  actualPlayer = JSON.parse(localStorage.getItem("actualPlayer"));
+actualPlayer.actualScore = 0;
+localStorage.setItem("actualPlayer", JSON.stringify(actualPlayer));
 
 
 btnSubmitRegion.disabled=true;

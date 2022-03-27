@@ -9,8 +9,6 @@ const pointsMessage = document.getElementById("pointsMessage");
 
 
 
-
-
 flagOne.addEventListener("click", handleFlagOneClick);
 flagTwo.addEventListener("click", handleFlagTwoClick);
 flagThree.addEventListener("click", handleFlagThreeClick);
@@ -21,16 +19,16 @@ let winningCountry;
 let answerCountry;
 
 const countriesForRound = [];
+let actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
+const actualPlayer = JSON.parse(localStorage.getItem("actualPlayer"));
 
-initialFunction();
+
+initialDisplay();
 drawCountriesForQuestion();
 
 
-
-function initialFunction(){
-    const actualScore = parseInt(localStorage.getItem("actualScore"));
-    const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
-    pointsMessage.innerText=`Score ${actualScore}/${actualQuestionNumber} `;
+function initialDisplay(){
+    pointsMessage.innerText=`${actualPlayer.username} you scored ${actualPlayer.actualScore}/${actualQuestionNumber} `;
     btnSubmitAnswer.disabled=true;
     btnSubmitAnswer.classList.add("btnSubmitAnswerDisabled");
     const region = localStorage.getItem("region");
@@ -103,24 +101,46 @@ function handleSubmit (){
     }
     else
     {
-        if(winningCountry.name === answerCountry.name)
-        {
-            let actualScore  = parseInt(localStorage.getItem("actualScore"));
-            actualScore += 1;
-            localStorage.setItem("actualScore",  actualScore.toString());
-        }
-
-        let actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
+        handlingScore();
         actualQuestionNumber +=1;
         localStorage.setItem("actualQuestionNumber", actualQuestionNumber.toString());
         localStorage.setItem("answerCountry", JSON.stringify(answerCountry));
 
         //function is used to create time for local storage to be updated
         setTimeout(()=>{
-            window.location = "./result.html";
+           window.location = "./result.html";
         }, 500)
 
     }
+
+function handlingScore(){
+
+    if(winningCountry.name === answerCountry.name)
+    {
+        actualPlayer.actualScore +=1;
+        handlingTopScore();
+    }
+    localStorage.setItem("actualPlayer",JSON.stringify(actualPlayer));
+}
+
+
+function handlingTopScore()
+{
+
+    if(actualPlayer.topScore <actualPlayer.actualScore)
+    {
+        actualPlayer.topScore =actualPlayer.actualScore;
+
+        let playersArray = JSON.parse(localStorage.getItem("playersArray"));
+        playersArray.map(p=>{
+            if(p.username === actualPlayer.username || !p.topScore)
+            {
+                p.topScore =actualPlayer.actualScore;
+            }
+            localStorage.setItem("playersArray", JSON.stringify(playersArray));
+        });
+    }
+}
 
 }
 
