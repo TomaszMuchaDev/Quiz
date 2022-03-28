@@ -838,6 +838,96 @@
     "latitude": "17.00"
   },
   {
+    "name": "Malta",
+    "flagPath": "./Assets/Flags/malta.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Malta",
+    "interestingFact": "the crime rate in Malta is close to negligible? No matter your gender or age, you will always feel safe anywhere you go.",
+    "region": "Europe",
+    "longitude": "14.51",
+    "latitude": "35.84"
+  },
+  {
+    "name": "Morocco",
+    "flagPath": "./Assets/Flags/maroco.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Morocco",
+    "interestingFact": "meals in Morocco are commonly eaten with your hand instead of a fork or spoon? Just remember, use only the right hand to eat!",
+    "region": "Africa",
+    "longitude": "-6.00",
+    "latitude": "32.00"
+  },
+  {
+    "name": "Mauritania",
+    "flagPath": "./Assets/Flags/mauritania.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Mauritania",
+    "interestingFact": "Mauritania has one of the longest trains in the world? The “Iron-ore Train” or “Train du Desert” is frequently 2.3km long! ",
+    "region": "Africa",
+    "longitude": "-12.00",
+    "latitude": "20.00"
+  },
+  {
+    "name": "Mauritius",
+    "flagPath": "./Assets/Flags/mauritius.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Mauritius",
+    "interestingFact": "Mauritius is known for its underwater waterfall, which is in fact an optical illusion? The underwater currents off the coast of Le Morne Brabant mountain create the impression of a huge underwater waterfall.",
+    "region": "Africa",
+    "longitude": "57.62",
+    "latitude": "-20.2"
+  },
+  {
+    "name": "Mexico",
+    "flagPath": "./Assets/Flags/mexico.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Mexico",
+    "interestingFact": "Mexico  home to the world’s smallest volcano – Cuexcomate? This volcano sits just outside the city of Puebla and stands a cute 13.1 meters tall, barely a small hill.",
+    "region": "America",
+    "longitude": "-102.00",
+    "latitude": "23.00"
+  },
+  {
+    "name": "Mongolia",
+    "flagPath": "./Assets/Flags/mongolia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Mongolia",
+    "interestingFact": "approximately 25-40% of Mongolians still live nomadic lifestyles?",
+    "region": "Asia",
+    "longitude": "106.00",
+    "latitude": "48.00"
+  },
+  {
+    "name": "Montenegro",
+    "flagPath": "./Assets/Flags/montenegro.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Montenegro",
+    "interestingFact": "the birth of a son is a big celebration for the Montenegrins? In the countryside, people can be celebrating this event “in a big way” in front of the house with constant shots from pistols!",
+    "region": "Europe",
+    "longitude": "19.20",
+    "latitude": "42.90"
+  },
+  {
+    "name": "Mozambique",
+    "flagPath": "./Assets/Flags/mozambique.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Mozambique",
+    "interestingFact": "Mozambique population is incredibly young? An estimated 45 percent of the population is under 15 years of age1",
+    "region": "Africa",
+    "longitude": "35.00",
+    "latitude": "-18.15"
+  },
+  {
+    "name": "Myanmar",
+    "flagPath": "./Assets/Flags/myanmar.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Myanmar",
+    "interestingFact": "the national dish of Burma is made of Tea? Tea Salad is a popular dish, which is the unofficial national food.",
+    "region": "Asia",
+    "longitude": "96.60",
+    "latitude": "20.45"
+  },
+  {
+    "name": "Nauru",
+    "flagPath": "./Assets/Flags/nauru.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Nauru",
+    "interestingFact": "Nauru as the world’s most obese nation with 88.5% of its population over 18 years old classified as obese?",
+    "region": "Asia",
+    "longitude": "166.94",
+    "latitude": "-0.53"
+  },
+  {
     "name": "Poland",
     "flagPath": "./Assets/Flags/poland.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Poland",

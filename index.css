@@ -33,7 +33,7 @@ h1{
 
 li{
     font-size: 1.2rem;
-    text-decoration: none;
+    list-style: none;
 }
 
 footer, header{
@@ -56,8 +56,20 @@ footer{
 
 nav{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
+}
+
+#hamburgerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#btnHamburgerMenu{
+    display: none;
 }
 
  main{
@@ -104,7 +116,7 @@ button{
     box-shadow: 0 8px 8px -4px var(--shadow-color);
 }
 
-.navBtn {
+.navBtn, li a {
     background-color: var(--links-bg-color);
     color: var(--font-color-buttons);
     text-decoration: none;
@@ -166,7 +178,7 @@ button{
 }
 
 
-.navBtn, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
+.navBtn, li a, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
     border: var(--button-border-color) solid 1px;
     border-radius: 5px;
     box-shadow: 0 8px 8px -4px var(--shadow-color);
@@ -255,13 +267,40 @@ button:hover, .regionCard:hover, .countryCard:hover{
  }
 
 
-@media  (max-width: 960px) {
+@media screen and (max-width: 960px) {
     body, .resultCenterElement{
         width: 100vw;
     }
 
-    button, .navBtn{
+    button, li a{
         font-size: 1.0rem;
+    }
+
+    #hamburgerMenu{
+        display: none;
+    }
+
+    #btnHamburgerMenu{
+        display: block;
+        height: 30px;
+        width: 50px;
+        margin: 9px 26px;
+    }
+
+    #hamburgerMenu.menuMobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    #btnHamburgerMenu:hover{
+        cursor: pointer;
+    }
+
+    .navBtn {
+        display: none;
     }
 
     h1{
@@ -282,6 +321,7 @@ button:hover, .regionCard:hover, .countryCard:hover{
     .result-section{
         height: auto;
     }
+
 
     .btnInfo{
         margin-bottom: 30px;

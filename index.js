@@ -3,6 +3,15 @@ const btnRegister= document.getElementById("btnRegister");
 const pointsMessage = document.getElementById("pointsMessage");
 const usernameInput = document.getElementById("usernameInput");
 const passwordInput= document.getElementById("passwordInput");
+const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
+const hamburgerMenu = document.getElementById("hamburgerMenu");
+
+
+
+
+btnHamburgerMenu.addEventListener("click", ()=>{
+    hamburgerMenu.classList.toggle("menuMobile")});
+
 
 
 let player ={};

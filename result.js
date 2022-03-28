@@ -11,7 +11,7 @@ const btnNextQuestion = document.getElementById("btnNextQuestion");
 btnNextQuestion.addEventListener("click", handleNextQuestionBtn);
 const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
 
-//checkCountryData(92);
+//checkCountryData(102);
 handleResult();
 
 // TODO remove function after all countries will be added
