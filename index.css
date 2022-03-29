@@ -116,12 +116,12 @@ button{
     box-shadow: 0 8px 8px -4px var(--shadow-color);
 }
 
-.navBtn, li a {
+#btnAbout, li a {
     background-color: var(--links-bg-color);
     color: var(--font-color-buttons);
     text-decoration: none;
     min-height: 40px;
-    min-width: 120px;
+    min-width: 140px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -178,7 +178,7 @@ button{
 }
 
 
-.navBtn, li a, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
+#btnAbout, li a, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
     border: var(--button-border-color) solid 1px;
     border-radius: 5px;
     box-shadow: 0 8px 8px -4px var(--shadow-color);
@@ -297,10 +297,6 @@ button:hover, .regionCard:hover, .countryCard:hover{
 
     #btnHamburgerMenu:hover{
         cursor: pointer;
-    }
-
-    .navBtn {
-        display: none;
     }
 
     h1{

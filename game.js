@@ -8,6 +8,12 @@ const btnSubmitAnswer =document.getElementById("btnSubmitAnswer");
 const pointsMessage = document.getElementById("pointsMessage");
 
 
+const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
+const hamburgerMenu = document.getElementById("hamburgerMenu");
+
+btnHamburgerMenu.addEventListener("click", ()=>{
+    hamburgerMenu.classList.toggle("menuMobile")});
+
 
 flagOne.addEventListener("click", handleFlagOneClick);
 flagTwo.addEventListener("click", handleFlagTwoClick);

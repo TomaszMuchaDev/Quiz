@@ -2,6 +2,12 @@ const regionCardBtn = document.querySelectorAll(".regionCard");
 const btnSubmitRegion = document.getElementById("btnSubmitRegion");
 
 
+const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
+const hamburgerMenu = document.getElementById("hamburgerMenu");
+
+btnHamburgerMenu.addEventListener("click", ()=>{
+    hamburgerMenu.classList.toggle("menuMobile")});
+
 let region;
 localStorage.setItem("actualQuestionNumber", "0");
 let  actualPlayer = JSON.parse(localStorage.getItem("actualPlayer"));
