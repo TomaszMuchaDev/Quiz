@@ -55,6 +55,7 @@ handleResult();
 // }
 
 
+
 function handleNextQuestionBtn(){
     if(actualQuestionNumber>=5)
     {
@@ -79,13 +80,16 @@ function handleResult(){
 
 
 function displayWiningCountry(winingCountry, answerCountry ){
-
     if(winingCountry.name === answerCountry.name)
     {
+        const audio = new Audio('./Assets/SoundEffects/success.mp3');
+        audio.play();
         correctMsg.innerText = "Correct!!!";
     }
     else
     {
+        const audio = new Audio('./Assets/SoundEffects/failure.mp3');
+        audio.play();
         correctMsg.innerText =  "No luck this time.";
     }
 

@@ -11,6 +11,8 @@ btnHamburgerMenu.addEventListener("click", ()=>{
 updateScoreTable();
 
 function updateScoreTable (){
+    const audio = new Audio('./Assets/SoundEffects/score.mp3');
+    audio.play();
     const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
     const {username, actualScore} = JSON.parse(localStorage.getItem("actualPlayer"));
     const playersArray = JSON.parse(localStorage.getItem("playersArray"));
