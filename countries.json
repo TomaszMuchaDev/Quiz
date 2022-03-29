@@ -928,6 +928,123 @@
     "latitude": "-0.53"
   },
   {
+    "name": "Nepal",
+    "flagPath": "./Assets/Flags/nepal.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Nepal",
+    "interestingFact": "Nepal is possessing 8 peaks of the 10 highest in the world with Mount Everest among them?",
+    "region": "Asia",
+    "longitude": "84.15",
+    "latitude": "28.10"
+  },
+  {
+    "name": "Netherlands",
+    "flagPath": "./Assets/Flags/Netherlands.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Netherlands",
+    "interestingFact": " almost one third of the Netherlands is below sea level, and even 60 percent of the population lives 5 metres below sea level?",
+    "region": "Europe",
+    "longitude": "5.33",
+    "latitude": "52.19"
+  },
+  {
+    "name": "New Zealand",
+    "flagPath": "./Assets/Flags/newZeland.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/New_Zealand",
+    "interestingFact": "in New Zealand lives Weta, the largest insect in the world? It  has ears on its knees, loves carrots and weighs in at 70g",
+    "region": "Asia",
+    "longitude": "173.00",
+    "latitude": "-42.00"
+  },
+  {
+    "name": "Nicaragua",
+    "flagPath": "./Assets/Flags/nicaragua.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Nicaragua",
+    "interestingFact": "there are no street names in Nicaraguan towns and cities; instead, people give directions based on local landmarks?",
+    "region": "America",
+    "longitude": "-85.70",
+    "latitude": "12.80"
+  },
+  {
+    "name": "Nigeria",
+    "flagPath": "./Assets/Flags/nigeria.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Nigeria",
+    "interestingFact": "in Nigeria in total more than 500 different languages are spoken?",
+    "region": "Africa",
+    "longitude": "8.00",
+    "latitude": "8.00"
+  },
+  {
+    "name": "Norway",
+    "flagPath": "./Assets/Flags/norway.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Norway",
+    "interestingFact": " Norwegians invented skiing some 4000 years ago? The island of Rødøy, in northern Norway, is home to rock carvings of that dates back 4000 years.",
+    "region": "Europe",
+    "longitude": "8.00",
+    "latitude": "61.00"
+  },
+  {
+    "name": "Oman",
+    "flagPath": "./Assets/Flags/oman.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Oman",
+    "interestingFact": "Oman is also one of the oldest human-inhabited places on the planet? It is estimated that humans have been living in the country for at least 106,000 years.",
+    "region": "Asia",
+    "longitude": "57.00",
+    "latitude": "21.00"
+  },
+  {
+    "name": "Pakistan",
+    "flagPath": "./Assets/Flags/pakistan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Pakistan",
+    "interestingFact": "Pakistan has the largest canal-based irrigation system in the world?",
+    "region": "Asia",
+    "longitude": "70.00",
+    "latitude": "30.00"
+  },
+  {
+    "name": "Palau",
+    "flagPath": "./Assets/Flags/palau.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Palau",
+    "interestingFact": "Palau is home to Jellyfish Lake? A land-locked marine lake filled with 5 million non-stinging transparent jellyfish that swim en masse to follow the path of the sun.",
+    "region": "Asia",
+    "longitude": "134.55",
+    "latitude": "7.50"
+  },
+  {
+    "name": "Palestine",
+    "flagPath": "./Assets/Flags/palestine.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/State_of_Palestine",
+    "interestingFact": "Palestine is home to the oldest olive trees in the world, which date back nearly 4,000 years?",
+    "region": "Asia",
+    "longitude": "35.15",
+    "latitude": "32.00"
+  },
+  {
+    "name": "Papua New Guinea",
+    "flagPath": "./Assets/Flags/papuaNewGuinea.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Papua_New_Guinea",
+    "interestingFact": "Papua New Guinea is home to the one of Earth’s very few poisonous birds?",
+    "region": "Asia",
+    "longitude": "145.00",
+    "latitude": "-6.00"
+  },
+  {
+    "name": "Peru",
+    "flagPath": "./Assets/Flags/peru.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Peru",
+    "interestingFact": "Roasted guinea pig is the national dish of Peru? It is served whole – head and feet intact!",
+    "region": "America",
+    "longitude": "-76.00",
+    "latitude": "-10.00"
+  },
+  {
+    "name": "Philippines",
+    "flagPath": "./Assets/Flags/philipines.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Philippines",
+    "interestingFact": "Filipinos do not say ‘no’ or outright refuse an invitation or suggestion?",
+    "region": "Asia",
+    "longitude": "122.00",
+    "latitude": "13.00"
+  },
+  {
     "name": "Poland",
     "flagPath": "./Assets/Flags/poland.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Poland",
