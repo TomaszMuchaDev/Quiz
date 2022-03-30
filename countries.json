@@ -1052,5 +1052,95 @@
     "region": "Europe",
     "longitude": "19.01",
     "latitude": "52.22"
+  },
+  {
+    "name": "Portugal",
+    "flagPath": "./Assets/Flags/portugal.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Portugal",
+    "interestingFact": "Portugal is home to the world’s largest cork forest and produces over 70% of its cork exports?",
+    "region": "Europe",
+    "longitude": "-8.31",
+    "latitude": "38.42"
+  },
+  {
+    "name": "Puerto Rico",
+    "flagPath": "./Assets/Flags/puertoRico.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Puerto_Rico",
+    "interestingFact": "Puerto Rico has the brightest bioluminescent bay in the world?",
+    "region": "America",
+    "longitude": "-66.43",
+    "latitude": "18.22"
+  },
+  {
+    "name": "Qatar",
+    "flagPath": "./Assets/Flags/quatar.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Qatar",
+    "interestingFact": "Qatar has less than 10 days with rain per year, on average?",
+    "region": "Asia",
+    "longitude": "51.15",
+    "latitude": "25.30"
+  },
+  {
+    "name": "Romania",
+    "flagPath": "./Assets/Flags/romania.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Romania",
+    "interestingFact": "heaviest building in the world is in Romania? The Palace of Parliament in Bucharest contains 700,000 tonnes of steel and bronze, 1,000,000 square feet of marble.",
+    "region": "Europe",
+    "longitude": "26.06",
+    "latitude": "45.25"
+  },
+  {
+    "name": "Rwanda",
+    "flagPath": "./Assets/Flags/rwanda.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Rwanda",
+    "interestingFact": "once a month all Rwandans  have to work within their community sectors on various public works projects?",
+    "region": "Africa",
+    "longitude": "29.72",
+    "latitude": "-1.97"
+  },
+  {
+    "name": "Solomon Islands",
+    "flagPath": "./Assets/Flags/salomonIslands.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Solomon_Islands",
+    "interestingFact": "the world's largest raised coral atoll is East Rennell in the Solomon Islands?",
+    "region": "Asia",
+    "longitude": "159.00",
+    "latitude": "-8.00"
+  },
+  {
+    "name": "Samoa",
+    "flagPath": "./Assets/Flags/samoa.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Samoa",
+    "interestingFact": "The world's largest raised coral atoll is East Rennell in the Solomon Islands?",
+    "region": "Asia",
+    "longitude": "-171.90",
+    "latitude": "-13.85"
+  },
+  {
+    "name": "Saudi Arabia",
+    "flagPath": "./Assets/Flags/saudiArabia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+    "interestingFact": "Saudi Arabia is the largest country in the world without a river? Most of the fresh water here comes from desalinization plants or underground reservoirs.",
+    "region": "Asia",
+    "longitude": "45.00",
+    "latitude": "24.00"
+  },
+  {
+    "name": "Scotland",
+    "flagPath": "./Assets/Flags/scotland.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Scotland",
+    "interestingFact": "Scots invented golf with St Andrews considered as the ‘home of golf’?",
+    "region": "Europe",
+    "longitude": "-4.00",
+    "latitude": "57.00"
+  },
+  {
+    "name": "Senegal",
+    "flagPath": "./Assets/Flags/senegal.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Senegal",
+    "interestingFact": "Senegal has an island made of seashells? Houses, pathways and even graveyards on Fadiouth are made from seashells!",
+    "region": "Africa",
+    "longitude": "-15.25",
+    "latitude": "14.40"
   }
 ]
