@@ -1,6 +1,6 @@
 const regionCardBtn = document.querySelectorAll(".regionCard");
 const btnSubmitRegion = document.getElementById("btnSubmitRegion");
-
+const pointsMessage = document.getElementById("pointsMessage");
 
 const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
 const hamburgerMenu = document.getElementById("hamburgerMenu");
@@ -53,6 +53,7 @@ btnSubmitRegion.addEventListener("click", ()=>{
 
 
 
+pointsMessage.innerText=`${actualPlayer.username} you scored 0/0`;
 
 // get countries by chosen region
 function  getRandomGameCountries(countries, region){

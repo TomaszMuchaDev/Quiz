@@ -46,21 +46,30 @@ function handleLogin() {
 
     if(playersLocalStorageArray)
     {
-        playersLocalStorageArray.map(p=>{
-            if(p.username === player.username && p.password === player.password)
-            {
-               localStorage.setItem("actualPlayer", JSON.stringify(p));
-               setTimeout(()=>{
-                   window.location="./chooseRegion.html";
-               }, 200);
 
-            }
-            else
-            {
-                alert("Sorry you credentials do not match please try again.")
-            }
-        })
+        if(!player.username || !player.password)
+        {
+            alert("Please provide your username and password!");
+            return
+        }
+        else
+        {
+            playersLocalStorageArray.map(p=>{
+                if(p.username === player.username && p.password === player.password)
+                {
+                    localStorage.setItem("actualPlayer", JSON.stringify(p));
+                    setTimeout(()=>{
+                        window.location="./chooseRegion.html";
+                    }, 200);
 
+                }
+                else if(p.username === player.username  && p.password !== player.password)
+                {
+                    alert("Sorry your password is not correct!");
+                }
+            });
+        }
+        alert("Sorry your credentials are not correct!");
     }
     else
     {
