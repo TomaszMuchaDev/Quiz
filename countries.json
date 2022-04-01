@@ -562,7 +562,7 @@
     "name": "Guinea",
     "flagPath": "./Assets/Flags/guinea.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Guinea",
-    "interestingFact": " in the Nimba Mountains of Guinea  chimpanzees were first observed using tools to chop up and reduce food into smaller bite-sized portions?",
+    "interestingFact": " in the Nimba Mountains of Guinea chimpanzees were first observed using tools to chop up and reduce food into smaller bite-sized portions?",
     "region": "Africa",
     "longitude": "-11.00",
     "latitude": "11.00"
@@ -805,7 +805,7 @@
     "name": "Madagascar",
     "flagPath": "./Assets/Flags/madagascar.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Madagascar",
-    "interestingFact": "Madagascar  men and women wear the same clothes? It is a rectangular length of cloth wrapped around the body.",
+    "interestingFact": "Madagascar men and women wear the same clothes? It is a rectangular length of cloth wrapped around the body.",
     "region": "Africa",
     "longitude": "47.00",
     "latitude": "-20.00"
@@ -1111,7 +1111,7 @@
     "name": "Samoa",
     "flagPath": "./Assets/Flags/samoa.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Samoa",
-    "interestingFact": "The world's largest raised coral atoll is East Rennell in the Solomon Islands?",
+    "interestingFact": "there Is Only One City In Samoa? Apia, the capital city.",
     "region": "Asia",
     "longitude": "-171.90",
     "latitude": "-13.85"
@@ -1142,5 +1142,104 @@
     "region": "Africa",
     "longitude": "-15.25",
     "latitude": "14.40"
+  },
+  {
+    "name": "Serbia",
+    "flagPath": "./Assets/Flags/serbia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Serbia",
+    "interestingFact": "in Serbia, there are two lakes named Vlasina and Semeteš where islands float on the lakes’ surfaces?",
+    "region": "Europe",
+    "longitude": "21.00",
+    "latitude": "44.00"
+  },
+  {
+    "name": "Sierra Leone",
+    "flagPath": "./Assets/Flags/sierraLeone.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Sierra_Leone",
+    "interestingFact": "Tiwai Island in Sierra Leone is one of the few remaining tracts of ancient rainforest in West Africa?",
+    "region": "Africa",
+    "longitude": "-12.60",
+    "latitude": "8.30"
+  },
+  {
+    "name": "Singapore",
+    "flagPath": "./Assets/Flags/singapore.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Singapore",
+    "interestingFact": "Singaporeans are the fastest pedestrians in the world, walking at a speed of about 6.15 kilometres per hour?",
+    "region": "Asia",
+    "longitude": "103.85",
+    "latitude": "1.38"
+  },
+  {
+    "name": "Slovenia",
+    "flagPath": "./Assets/Flags/slovenia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Slovenia",
+    "interestingFact": "hives and honey are practically a religion in Slovenia – there are around 90,000 beekeepers in a population of just two million?",
+    "region": "Europe",
+    "longitude": "14.49",
+    "latitude": "46.07"
+  },
+  {
+    "name": "Somalia",
+    "flagPath": "./Assets/Flags/somalia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Somalia",
+    "interestingFact": "when eating, people in Somalia scoop the food from their bowl using their first three fingers?",
+    "region": "Africa",
+    "longitude": "45.00",
+    "latitude": "4.00"
+  },
+  {
+    "name": "South Africa",
+    "flagPath": "./Assets/Flags/southAfrica.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/South_Africa",
+    "interestingFact": "South Africa has three capital cities? Cape Town (Legislative), Pretoria (Administrative), and Bloemfontein (Judicial)!",
+    "region": "Africa",
+    "longitude": "25.00",
+    "latitude": "-30.00"
+  },
+  {
+    "name": "South Korea",
+    "flagPath": "./Assets/Flags/southKorea.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/South_Korea",
+    "interestingFact": "South Korean eat dogs? As a fact, they actually eat around one million dogs per year.",
+    "region": "Asia",
+    "longitude": "128.00",
+    "latitude": "36.00"
+  },
+  {
+    "name": "Spain",
+    "flagPath": "./Assets/Flags/spain.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Spain",
+    "interestingFact": "you have two surnames in Spain – the first surname from your father, and the second from your mother?",
+    "region": "Europe",
+    "longitude": "-4.00",
+    "latitude": "40.00"
+  },
+  {
+    "name": "Sri Lanka",
+    "flagPath": "./Assets/Flags/sriLanka.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Sri_Lanka",
+    "interestingFact": "Sri Lanka is home to the world's oldest human-planted tree? It is a sacred fig aged 2,300 years old and called Sri Maha Bodhiya.",
+    "region": "Asia",
+    "longitude": "81.00",
+    "latitude": "7.00"
+  },
+  {
+    "name": "Sudan",
+    "flagPath": "./Assets/Flags/sudan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Sudan",
+    "interestingFact": "in Sudan are more pyramids in one small section of the northern Sudanese desert than there are in the whole of Egyp?",
+    "region": "Africa",
+    "longitude": "32.00",
+    "latitude": "15.00"
+  },
+  {
+    "name": "Zimbabwe",
+    "flagPath": "./Assets/Flags/zimbabwe.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Zimbabwe",
+    "interestingFact": "the noise of Victoria Falls can be heard from a distance of 40 kilometers?",
+    "region": "Africa",
+    "longitude": "30.00",
+    "latitude": "-19.00"
   }
 ]
