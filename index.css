@@ -116,7 +116,7 @@ button{
     box-shadow: 0 8px 8px -4px var(--shadow-color);
 }
 
-#btnAbout, li a {
+li a {
     background-color: var(--links-bg-color);
     color: var(--font-color-buttons);
     text-decoration: none;
@@ -164,6 +164,7 @@ button{
     align-items: center;
     justify-items: center;
     text-align: center;
+    margin: 20px;
 }
 
 #resultFact{
@@ -172,13 +173,14 @@ button{
 
 #pointsMessage, #footerMessage {
     padding-right: 40px;
+    padding-left: 20px;
 }
 .infoPages{
     padding-top: 50px;
 }
 
 
-#btnAbout, li a, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
+li a, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
     border: var(--button-border-color) solid 1px;
     border-radius: 5px;
     box-shadow: 0 8px 8px -4px var(--shadow-color);
@@ -235,6 +237,11 @@ button{
     margin: 20px;
 }
 
+#map{
+    height: 200px;
+    min-width: 300px;
+    margin: 20px;
+}
 
 .btnInfo, .result-aside{
     background-color: var(--info-elements-color);
@@ -267,7 +274,7 @@ button:hover, .regionCard:hover, .countryCard:hover{
  }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1040px) {
     body, .resultCenterElement{
         width: 100vw;
     }

@@ -17,7 +17,7 @@ btnHamburgerMenu.addEventListener("click", ()=>{
 btnNextQuestion.addEventListener("click", handleNextQuestionBtn);
 const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
 
-//checkCountryData(123);
+//checkCountryData(118);
 handleResult();
 
 // TODO remove function after all countries will be added
