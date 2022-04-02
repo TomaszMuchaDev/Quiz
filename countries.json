@@ -1234,6 +1234,195 @@
     "latitude": "15.00"
   },
   {
+    "name": "Suriname",
+    "flagPath": "./Assets/Flags/suriname.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Suriname",
+    "interestingFact": "Suriname is the only country outside Europe where Dutch is spoken by a majority of the population?",
+    "region": "America",
+    "longitude": "-56.00",
+    "latitude": "4.00"
+  },
+  {
+    "name": "Sweden",
+    "flagPath": "./Assets/Flags/sweden.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Sweden",
+    "interestingFact": "in Sweden is a hotel made of ice?",
+    "region": "Europe",
+    "longitude": "16.00",
+    "latitude": "63.00"
+  },
+  {
+    "name": "Taiwan",
+    "flagPath": "./Assets/Flags/taiwan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Taiwan",
+    "interestingFact": "Taiwan experiences over 1,000 perceivable earthquakes a year and over 17,000 non-perceivable quakes?",
+    "region": "Asia",
+    "longitude": "121.00",
+    "latitude": "24.00"
+  },
+  {
+    "name": "Tajikistan",
+    "flagPath": "./Assets/Flags/tajikistan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Tajikistan",
+    "interestingFact": "Tajikistan’s capital city was named after a day of the week? Dushanbe means Monday in Persian.",
+    "region": "Asia",
+    "longitude": "71.00",
+    "latitude": "39.00"
+  },
+  {
+    "name": "Tonga",
+    "flagPath": "./Assets/Flags/tonga.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Tonga",
+    "interestingFact": "the Tongan language has different numerical systems for different items? For instance, counting coconuts has different words for numbers than counting fish.",
+    "region": "Asia",
+    "longitude": "-175.20",
+    "latitude": "-21.20"
+  },
+  {
+    "name": "Trinidad",
+    "flagPath": "./Assets/Flags/trinidad.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Trinidad_and_Tobago",
+    "interestingFact": "Trinidad and Tobago is home to the Moruga Scorpion, which is consistently ranked as one of the world’s hottest peppers?",
+    "region": "America",
+    "longitude": "-61.14",
+    "latitude": "10.27"
+  },
+  {
+    "name": "Tunisia",
+    "flagPath": "./Assets/Flags/tunisia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Tunisia",
+    "interestingFact": "Tunisia people live underground? In Matmata underground houses are built to escape the scorching heat and sun of the Sahara Dessert.",
+    "region": "Africa",
+    "longitude": "9.00",
+    "latitude": "34.00"
+  },
+  {
+    "name": "Turkey",
+    "flagPath": "./Assets/Flags/turkey.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Turkey",
+    "interestingFact": "Turkey’s largest city, Istanbul is  the only city in the world that straddles two continents? One side in Europe and the other in Asia.",
+    "region": "Europe",
+    "longitude": "35.00",
+    "latitude": "39.00"
+  },
+  {
+    "name": "Turkmenistan",
+    "flagPath": "./Assets/Flags/turkmenistan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Turkmenistan",
+    "interestingFact": "black cars are forbidden in Turkmenistan in favour of white cars because white is a colour that “brings good luck?",
+    "region": "Asia",
+    "longitude": "58.20",
+    "latitude": "39.58"
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "name": "",
+    "flagPath": "./Assets/Flags/.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/",
+    "interestingFact": "",
+    "region": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
     "name": "Zimbabwe",
     "flagPath": "./Assets/Flags/zimbabwe.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Zimbabwe",
