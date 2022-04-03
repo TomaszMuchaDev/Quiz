@@ -1315,112 +1315,112 @@
     "latitude": "39.58"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Uganda",
+    "flagPath": "./Assets/Flags/uganda.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Uganda",
+    "interestingFact": " in Uganda customary for men is to wear trousers? Even in the heat, they wear them because shorts are only for the immature.",
+    "region": "Africa",
+    "longitude": "32.00",
+    "latitude": "1.00"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "UK",
+    "flagPath": "./Assets/Flags/uk.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/UK",
+    "interestingFact": "Windsor Palace is the oldest and largest castle in the world that is occupied?",
+    "region": "Europe",
+    "longitude": "-1.00",
+    "latitude": "52.00"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Ukraine",
+    "flagPath": "./Assets/Flags/ukraine.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Ukraine",
+    "interestingFact": "unlike many cultures around the world, Ukrainians wear wedding rings on the right hand not the left?",
+    "region": "Europe",
+    "longitude": "32.00",
+    "latitude": "49.00"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Emirates",
+    "flagPath": "./Assets/Flags/unitedArabEmirates.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/United_Arab_Emirates",
+    "interestingFact": "the Dubai Police’s fleet of vehicles includes supercars like Bugatti, Ferrari, Bentley, Lamborghini, Camaro, Mercedes?",
+    "region": "Asia",
+    "longitude": "54.00",
+    "latitude": "23.50"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Uruguay",
+    "flagPath": "./Assets/Flags/uruguay.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Uruguay",
+    "interestingFact": "100% of Uruguay's electricity comes from renewable sources?",
+    "region": "America",
+    "longitude": "-56.10",
+    "latitude": "-33.53"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "USA",
+    "flagPath": "./Assets/Flags/usa.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/USA",
+    "interestingFact": "the Mammoth Cave National Park actually has the longest cave system in the world?",
+    "region": "America",
+    "longitude": "-100.00",
+    "latitude": "40.00"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Uzbekistan",
+    "flagPath": "./Assets/Flags/uzbekistan.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Uzbekistan",
+    "interestingFact": "handshakes are only acceptable terms of greetings for two men? An Uzbek woman is greeted by bowing with your right hand placed over your chest.",
+    "region": "Asia",
+    "longitude": "63.00",
+    "latitude": "42.00"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Vanuatu",
+    "flagPath": "./Assets/Flags/vanuatu.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Vanuatu",
+    "interestingFact": "according to anthropologists, the last recorded cannibal killing on Vanuatu was a recent as 1969?",
+    "region": "Asia",
+    "longitude": "167.50",
+    "latitude": "-16.40"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Venezuela",
+    "flagPath": "./Assets/Flags/venezuela.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Venezuela",
+    "interestingFact": "the Lake Maracaibo is the most likely place on the planet to see lightning? Sometimes there are more than 100,000 lightning strikes a night?",
+    "region": "America",
+    "longitude": "-64.00",
+    "latitude": "7.00"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Vietnam",
+    "flagPath": "./Assets/Flags/vietnam.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Vietnam",
+    "interestingFact": "Vietnam is home to the world’s largest cave? It’s wide enough to fly a Boeing 747 through!",
+    "region": "Asia",
+    "longitude": "107.80",
+    "latitude": "16.00"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Wales",
+    "flagPath": "./Assets/Flags/wales.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Wales",
+    "interestingFact": "the Wales officially has more castles per square mile than any other country in the world?",
+    "region": "Europe",
+    "longitude": "-3.60",
+    "latitude": "52.30"
   },
   {
-    "name": "",
-    "flagPath": "./Assets/Flags/.png",
-    "wikiLink": "https://en.wikipedia.org/wiki/",
-    "interestingFact": "",
-    "region": "",
-    "longitude": "",
-    "latitude": ""
+    "name": "Zambia",
+    "flagPath": "./Assets/Flags/zambia.png",
+    "wikiLink": "https://en.wikipedia.org/wiki/Zambia",
+    "interestingFact": "termite hills in Zambia can grow as big as a small house?",
+    "region": "Africa",
+    "longitude": "27.00",
+    "latitude": "-15.00"
   },
   {
     "name": "Zimbabwe",

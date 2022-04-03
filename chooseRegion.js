@@ -48,9 +48,7 @@ btnSubmitRegion.addEventListener("click", ()=>{
         .then(json =>{
             getRandomGameCountries(json, region);})
         .then(r =>  window.location="./game.html")
-
     });
-
 
 
 pointsMessage.innerText=`${actualPlayer.username} you scored 0/0`;
@@ -80,12 +78,9 @@ function randomHandler(regionCountries){
  const drawnCountries=[];
  const regionCountriesForDrawing =[...regionCountries];
 
-    //TODO change number of drawn countries to 30
-
-    if(regionCountriesForDrawing.length>= 15)
+    if(regionCountriesForDrawing.length>= 30)
     {
-      //TODO change number of drawn countries to 29
-        for(let i=0; i<=14; i++)
+        for(let i=0; i<=regionCountriesForDrawing.length-1; i++)
         {
             const random =  Math.floor(Math.random()*regionCountriesForDrawing.length);
             drawnCountries.push(regionCountriesForDrawing[random]);
