@@ -1,4 +1,5 @@
-const pointsMessage = document.getElementById("pointsMessage");
+import {displayPointsMessage} from "./displayHelpers.js";
+
 const scoreMsg= document.getElementById("scoreMsg");
 const scoreTable= document.getElementById("scoreTable");
 const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
@@ -14,18 +15,18 @@ function updateScoreTable (){
     const audio = new Audio('./Assets/SoundEffects/score.mp3');
     audio.play();
     const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
-    const {username, actualScore} = JSON.parse(localStorage.getItem("actualPlayer"));
+    const actualPlayer= JSON.parse(localStorage.getItem("actualPlayer"));
+    const {username, actualScore} = actualPlayer;
     const playersArray = JSON.parse(localStorage.getItem("playersArray"));
     const sortedPlayersArray = sortPlayersArray(playersArray);
+    displayPointsMessage(actualPlayer, actualQuestionNumber);
     displayMessages(actualQuestionNumber, username, actualScore);
     displayScoreBoard(sortedPlayersArray);
 }
 
 
-
 function displayMessages(actualQuestionNumber, username, actualScore) {
-    pointsMessage.innerText=`${username} you scored ${actualScore}/${actualQuestionNumber} `;
-    scoreMsg.innerText=`You scored ${actualScore} out of ${actualQuestionNumber} !
+    scoreMsg.innerText=`${username} you scored ${actualScore} out of ${actualQuestionNumber} !
     Your personal best is ${actualScore} !!!`;
 }
 

@@ -1,4 +1,5 @@
-const pointsMessage = document.getElementById("pointsMessage");
+import {displayPointsMessage} from "./displayHelpers.js";
+
 const resultFlag = document.getElementById("resultFlag");
 const resultFact = document.getElementById("resultFact");
 const resultBtnWiki = document.getElementById("resultBtnWiki");
@@ -19,6 +20,8 @@ const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumbe
 
 
 handleResult();
+
+
 function handleNextQuestionBtn(){
     if(actualQuestionNumber>=10)
     {
@@ -36,8 +39,8 @@ function handleResult(){
    const actualPlayer = JSON.parse(localStorage.getItem("actualPlayer"));
    const winingCountry = JSON.parse(localStorage.getItem("winningCountry"));
 
-    displayWiningCountry(winingCountry, answerCountry )
-    displayScore(actualPlayer) ;
+    displayWiningCountry(winingCountry, answerCountry );
+    displayPointsMessage(actualPlayer, actualQuestionNumber);
     displayCountryData(winingCountry);
 }
 
@@ -56,12 +59,6 @@ function displayWiningCountry(winingCountry, answerCountry ){
         correctMsg.innerText =  "No luck this time.";
     }
 
-}
-
-
-function displayScore(actualPlayer){
-    const {username, actualScore} = actualPlayer;
-    pointsMessage.innerText=`${username} you scored ${actualScore}/${actualQuestionNumber} `;
 }
 
 function  displayCountryData(winingCountry){

@@ -80,7 +80,7 @@ function randomHandler(regionCountries){
 
     if(regionCountriesForDrawing.length>= 30)
     {
-        for(let i=0; i<=regionCountriesForDrawing.length-1; i++)
+        for(let i=0; i<=29; i++)
         {
             const random =  Math.floor(Math.random()*regionCountriesForDrawing.length);
             drawnCountries.push(regionCountriesForDrawing[random]);

@@ -938,7 +938,7 @@
   },
   {
     "name": "Netherlands",
-    "flagPath": "./Assets/Flags/Netherlands.png",
+    "flagPath": "./Assets/Flags/netherlands.png",
     "wikiLink": "https://en.wikipedia.org/wiki/Netherlands",
     "interestingFact": " almost one third of the Netherlands is below sea level, and even 60 percent of the population lives 5 metres below sea level?",
     "region": "Europe",

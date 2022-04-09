@@ -1,3 +1,5 @@
+import {displayPointsMessage} from "./displayHelpers.js";
+
 const regionMessage = document.getElementById("regionMessage");
 const countryCard = document.querySelectorAll(".countryCard");
 const flagOne = document.getElementById("flagOne");
@@ -5,9 +7,6 @@ const flagTwo= document.getElementById("flagTwo");
 const flagThree = document.getElementById("flagThree");
 const questionCountry = document.getElementById("questionCountry");
 const btnSubmitAnswer =document.getElementById("btnSubmitAnswer");
-const pointsMessage = document.getElementById("pointsMessage");
-
-
 const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
 const hamburgerMenu = document.getElementById("hamburgerMenu");
 
@@ -34,7 +33,7 @@ drawCountriesForQuestion();
 
 
 function initialDisplay(){
-    pointsMessage.innerText=`${actualPlayer.username} you scored ${actualPlayer.actualScore}/${actualQuestionNumber} `;
+    displayPointsMessage(actualPlayer, actualQuestionNumber);
     btnSubmitAnswer.disabled=true;
     btnSubmitAnswer.classList.add("btnSubmitAnswerDisabled");
     const region = localStorage.getItem("region");
