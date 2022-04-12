@@ -1,11 +1,10 @@
 const btnLogin = document.getElementById("btnLogin");
 const btnRegister= document.getElementById("btnRegister");
-const pointsMessage = document.getElementById("pointsMessage");
 const usernameInput = document.getElementById("usernameInput");
 const passwordInput= document.getElementById("passwordInput");
-
 const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
 const hamburgerMenu = document.getElementById("hamburgerMenu");
+
 
 btnHamburgerMenu.addEventListener("click", ()=>{
     hamburgerMenu.classList.toggle("menuMobile")});
@@ -21,7 +20,7 @@ if (btnLogin || btnRegister) {
         });
     passwordInput.addEventListener("input", (e)=>{
         player.password = e.target.value;
-    })
+    });
 
 }
 
@@ -42,11 +41,8 @@ if(btnRegister)
 
 
 function handleLogin() {
-
-
     if(playersLocalStorageArray)
     {
-
         if(!player.username || !player.password)
         {
             alert("Please provide your username and password!");
@@ -73,15 +69,15 @@ function handleLogin() {
     }
     else
     {
-        alert("Sorry, we are not able to find your profile please create new one.")
+        alert("Sorry, we are not able to find your profile please create new one.");
     }
 
 }
 
 
 function handleRegister(){
-
    let playersArray=[];
+
    if(playersLocalStorageArray)
    {
        playersArray = [...playersLocalStorageArray];

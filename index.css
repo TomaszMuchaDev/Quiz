@@ -82,6 +82,27 @@ nav{
      align-items: center;
  }
 
+.howToPlay-main{
+    display: flex;
+    flex-direction: row;
+}
+
+#howToPlay-aside{
+    background-color: var(--card-bg-color);
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#howToPlay-aside a{
+    text-align: center;
+    color: var(--font-color-text);
+    text-decoration: none;
+    height: 30px;
+    border-bottom: solid 1px var(--button-border-color);
+}
  section{
      display: flex;
      flex-direction: column;
@@ -175,19 +196,21 @@ li a {
     padding-right: 40px;
     padding-left: 20px;
 }
+
+
 .infoPages{
     padding-top: 50px;
 }
 
 
-li a, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
+li a, .regionCard, .result-aside, .infoArticle,.countryCard,
+#map, #howToPlay-aside, .howToPlay-article{
     border: var(--button-border-color) solid 1px;
     border-radius: 5px;
     box-shadow: 0 8px 8px -4px var(--shadow-color);
 }
 
-
- .regionCard, .infoArticle{
+ .regionCard, .infoArticle, .howToPlay-article{
      display: flex;
      flex-direction: column;
      justify-items: center;
@@ -249,9 +272,15 @@ li a, .regionCard, .result-aside, .infoArticle,.countryCard, #map{
 }
 
 
-.infoArticle{
+.infoArticle, .howToPlay-article{
     width: 400px;
     height: auto;
+
+}
+
+
+.howToPlay-article{
+    margin-top: 50px;
 }
 
 .buttonsBottomRow, .buttonBottom{
@@ -310,7 +339,7 @@ button:hover, .regionCard:hover, .countryCard:hover{
         font-size: 1.8rem;
     }
 
-    .infoArticle{
+    .infoArticle, .howToPlay-article{
         width: 300px;
         height: auto;
     }
@@ -321,6 +350,7 @@ button:hover, .regionCard:hover, .countryCard:hover{
         align-items: center;
         padding: 20px;
     }
+
     .result-section{
         height: auto;
     }
@@ -328,6 +358,15 @@ button:hover, .regionCard:hover, .countryCard:hover{
 
     .btnInfo{
         margin-bottom: 30px;
+    }
+
+    .howToPlay-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #howToPlay-aside{
+        margin-right: 0;
     }
 
 }
