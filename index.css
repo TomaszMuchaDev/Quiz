@@ -92,6 +92,7 @@ nav{
     display: flex;
     flex-direction: column;
     width: 200px;
+    max-height: 280px;
     margin-top: 50px;
     margin-right: 50px;
 }
@@ -275,7 +276,6 @@ li a, .regionCard, .result-aside, .infoArticle,.countryCard,
 .infoArticle, .howToPlay-article{
     width: 400px;
     height: auto;
-
 }
 
 
@@ -302,6 +302,10 @@ button:hover, .regionCard:hover, .countryCard:hover{
      cursor: pointer;
  }
 
+#howToPlay-redirection-header{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 1100px) {
     body, .resultCenterElement{
@@ -369,4 +373,7 @@ button:hover, .regionCard:hover, .countryCard:hover{
         margin-right: 0;
     }
 
+    #howToPlay-redirection-header{
+        margin-bottom: 15px;
+    }
 }
