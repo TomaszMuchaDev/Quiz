@@ -1,11 +1,11 @@
 import {displayPointsMessage} from "./displayHelpers.js";
 
-const resultFlag = document.getElementById("resultFlag");
-const resultFact = document.getElementById("resultFact");
-const resultBtnWiki = document.getElementById("resultBtnWiki");
-const resultMsg = document.getElementById("resultMsg");
+const resultFlag = document.getElementById("result-flag");
+const resultFact = document.getElementById("result-fact");
+const resultBtnWiki = document.getElementById("result-btnWiki");
+const resultMsg = document.getElementById("result-msg");
 const regionMessage = document.getElementById("regionMessage");
-const correctMsg = document.getElementById("correctMsg");
+const correctMsg = document.getElementById("result-correctMsg");
 const btnNextQuestion = document.getElementById("btnNextQuestion");
 
 
@@ -71,7 +71,7 @@ function  displayCountryData(winingCountry){
         window.open(wikiLink);
     });
 
-    regionMessage.innerText = "Region is " + regionForMessage + ".";
+    regionMessage.innerText = "Chosen region is: " + regionForMessage + ".";
     resultBtnWiki.innerText = name + " info";
     resultMsg.innerText = `This is flag of ${name}.
         Click button below to find out more about this country.`;

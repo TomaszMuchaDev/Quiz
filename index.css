@@ -6,7 +6,7 @@
     --font-color-text: #335F7B;
     --button-bg-color: #ff004b;
     --button-bg-color-disabled: #f89eb8;
-    --button-border-color: #000000;
+    --button-border-color: #a6a6a6;
     --info-elements-color: #9EF01A;
     --info-font-color:#000000;
     --card-bg-color: #ffffff;
@@ -149,13 +149,32 @@ li a {
     justify-content: center;
     align-items: center;
     margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table{
+    border: solid 2px var(--button-border-color);
+    width: 360px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+th{
+    background-color: var(--main-bg-color);
+    border: solid 1px var(--button-border-color);
+}
+
+td {
+    border: solid 1px var(--button-border-color);
+
 }
 
 .btnSubmitAnswerDisabled{
     background-color: var( --button-bg-color-disabled);
 }
 
-.resultCenterElement{
+.result-centerElement{
     width: 90vw;
     max-width: 1200px;
     display: flex;
@@ -189,7 +208,7 @@ li a {
     margin: 20px;
 }
 
-#resultFact{
+#result-fact{
     width: 300px;
 }
 
@@ -307,8 +326,13 @@ button:hover, .regionCard:hover, .countryCard:hover{
     font-weight: bold;
 }
 
+.score-actualPlayer{
+    font-weight: bold;
+    color: var(--button-bg-color);
+}
+
 @media screen and (max-width: 1100px) {
-    body, .resultCenterElement{
+    body, .result-centerElement{
         width: 100vw;
     }
 
@@ -347,7 +371,7 @@ button:hover, .regionCard:hover, .countryCard:hover{
         width: 300px;
         height: auto;
     }
-    .resultCenterElement{
+    .result-centerElement{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -375,5 +399,12 @@ button:hover, .regionCard:hover, .countryCard:hover{
 
     #howToPlay-redirection-header{
         margin-bottom: 15px;
+    }
+    table{
+        width: 260px;
+    }
+
+    #score-msg{
+        font-size: 1.0rem;
     }
 }

@@ -37,7 +37,7 @@ function initialDisplay(){
     btnSubmitAnswer.disabled=true;
     btnSubmitAnswer.classList.add("btnSubmitAnswerDisabled");
     const region = localStorage.getItem("region");
-    regionMessage.innerText = "Region is " + region  + ".";
+    regionMessage.innerText = "Chosen region is: " + region  + ".";
 }
 
 function handleFlagOneClick(e){

@@ -1,7 +1,7 @@
 import {displayPointsMessage} from "./displayHelpers.js";
 
-const scoreMsg= document.getElementById("scoreMsg");
-const scoreTable= document.getElementById("scoreTable");
+const scoreMsg= document.getElementById("score-msg");
+const scoreTable= document.getElementById("score-table");
 const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
 const hamburgerMenu = document.getElementById("hamburgerMenu");
 
@@ -16,18 +16,18 @@ function updateScoreTable (){
     audio.play();
     const actualQuestionNumber  = parseInt(localStorage.getItem("actualQuestionNumber"));
     const actualPlayer= JSON.parse(localStorage.getItem("actualPlayer"));
-    const {username, actualScore} = actualPlayer;
+    const {username, actualScore, topScore} = actualPlayer;
     const playersArray = JSON.parse(localStorage.getItem("playersArray"));
     const sortedPlayersArray = sortPlayersArray(playersArray);
     displayPointsMessage(actualPlayer, actualQuestionNumber);
-    displayMessages(actualQuestionNumber, username, actualScore);
-    displayScoreBoard(sortedPlayersArray);
+    displayMessages(actualQuestionNumber, username, actualScore, topScore);
+    displayScoreBoard(sortedPlayersArray, username);
 }
 
 
-function displayMessages(actualQuestionNumber, username, actualScore) {
+function displayMessages(actualQuestionNumber, username, actualScore, topScore) {
     scoreMsg.innerText=`${username} you scored ${actualScore} out of ${actualQuestionNumber} !
-    Your personal best is ${actualScore} !!!`;
+    Your personal best is ${topScore} !!!`;
 }
 
 
@@ -37,11 +37,23 @@ let sortedPlayersArray = [...playersArray];
     return  sortedPlayersArray;
 }
 
-function displayScoreBoard (sortedPlayersArray) {
+function displayScoreBoard (sortedPlayersArray, actualName) {
     sortedPlayersArray .forEach(p=>{
-        const li = document.createElement("li");
-        li.appendChild(document.createTextNode(`${p.username} top score ${p.topScore ? p.topScore : "0"} points`));
-        scoreTable.appendChild(li);
+     const row = document.createElement("tr");
+     const userName = document.createElement("td");
+     const topScore = document.createElement("td");
+
+     userName.innerText=p.username;
+     topScore.innerText= p.topScore? p.topScore: 0;
+     if(p.username === actualName)
+     {
+         userName.className ="score-actualPlayer";
+         topScore.className= "score-actualPlayer";
+     }
+
+     scoreTable.append(row);
+     scoreTable.append(userName);
+     scoreTable.append(topScore);
     })
 }
 

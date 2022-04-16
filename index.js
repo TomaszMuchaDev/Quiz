@@ -43,6 +43,7 @@ if(btnRegister)
 function handleLogin() {
     if(playersLocalStorageArray)
     {
+        // when is no username or no password
         if(!player.username || !player.password)
         {
             alert("Please provide your username and password!");
@@ -51,14 +52,18 @@ function handleLogin() {
         else
         {
             playersLocalStorageArray.map(p=>{
+                // when all is ok
                 if(p.username === player.username && p.password === player.password)
                 {
                     localStorage.setItem("actualPlayer", JSON.stringify(p));
-                    setTimeout(()=>{
-                        window.location="./chooseRegion.html";
-                    }, 200);
+                    // setTimeout(()=>{
+                    //     window.location="./chooseRegion.html";
+                    // }, 200);
+
+                    window.location="./chooseRegion.html";
 
                 }
+                // username is correct but password it not correct
                 else if(p.username === player.username  && p.password !== player.password)
                 {
                     alert("Sorry your password is not correct!");
