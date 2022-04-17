@@ -47,7 +47,6 @@ function handleLogin() {
         if(!player.username || !player.password)
         {
             alert("Please provide your username and password!");
-            return
         }
         else
         {
@@ -56,21 +55,17 @@ function handleLogin() {
                 if(p.username === player.username && p.password === player.password)
                 {
                     localStorage.setItem("actualPlayer", JSON.stringify(p));
-                    // setTimeout(()=>{
-                    //     window.location="./chooseRegion.html";
-                    // }, 200);
-
                     window.location="./chooseRegion.html";
-
-                }
-                // username is correct but password it not correct
-                else if(p.username === player.username  && p.password !== player.password)
-                {
-                    alert("Sorry your password is not correct!");
-                }
-            });
+                }});
         }
-        alert("Sorry your credentials are not correct!");
+
+        //this function gives time for local storage to be updated when needed.
+        setTimeout(()=>{
+              if(player.username && player.password)
+                {
+                    alert("Sorry your credentials are not correct!");
+                }
+        }, 500);
     }
     else
     {
