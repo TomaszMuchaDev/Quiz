@@ -59,7 +59,7 @@ function handleLogin() {
                 }});
         }
 
-        //this function gives time for local storage to be updated when needed.
+        //this function gives time for local storage to be updated with actual player data.
         setTimeout(()=>{
               if(player.username && player.password)
                 {

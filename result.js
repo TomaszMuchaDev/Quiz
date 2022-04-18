@@ -7,8 +7,6 @@ const resultMsg = document.getElementById("result-msg");
 const regionMessage = document.getElementById("regionMessage");
 const correctMsg = document.getElementById("result-correctMsg");
 const btnNextQuestion = document.getElementById("btnNextQuestion");
-
-
 const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
 const hamburgerMenu = document.getElementById("hamburgerMenu");
 

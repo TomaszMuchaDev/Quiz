@@ -1,43 +1,31 @@
 const regionCardBtn = document.querySelectorAll(".regionCard");
 const btnSubmitRegion = document.getElementById("btnSubmitRegion");
 const pointsMessage = document.getElementById("pointsMessage");
-
 const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
 const hamburgerMenu = document.getElementById("hamburgerMenu");
 
-btnHamburgerMenu.addEventListener("click", ()=>{
-    hamburgerMenu.classList.toggle("menuMobile")});
-
 let region;
-localStorage.setItem("actualQuestionNumber", "0");
-let  actualPlayer = JSON.parse(localStorage.getItem("actualPlayer"));
-actualPlayer.actualScore = 0;
-localStorage.setItem("actualPlayer", JSON.stringify(actualPlayer));
-
-
-btnSubmitRegion.disabled=true;
-btnSubmitRegion.classList.add("btnSubmitAnswerDisabled");
+initialSetup();
 
 regionCardBtn.forEach(btn =>{
-        btn.addEventListener("click", (e) => {
-            regionCardBtn.forEach(b => {
-               if (b.dataset.region === "Asia")
-               {
-                   b.innerText = "Asia and Australia";
-               }
-               else
-               {
-                   b.innerText=b.dataset.region;
-               }
-               b.classList.remove("regionCardClicked")});
+    btn.addEventListener("click", (e) => {
+        regionCardBtn.forEach(b => {
+            if (b.dataset.region === "Asia")
+            {
+                b.innerText = "Asia and Australia";
+            }
+            else
+            {
+                b.innerText=b.dataset.region;
+            }
+            b.classList.remove("regionCardClicked")});
 
-            btnSubmitRegion.disabled=false;
-            btnSubmitRegion.classList.remove("btnSubmitAnswerDisabled");
-            e.target.classList.add("regionCardClicked");
-            e.target.innerText="✓";
-            region = e.target.dataset.region;
-        });});
-
+        btnSubmitRegion.disabled=false;
+        btnSubmitRegion.classList.remove("btnSubmitAnswerDisabled");
+        e.target.classList.add("regionCardClicked");
+        e.target.innerText="✓";
+        region = e.target.dataset.region;
+    });});
 
 
 
@@ -48,10 +36,26 @@ btnSubmitRegion.addEventListener("click", ()=>{
         .then(json =>{
             getRandomGameCountries(json, region);})
         .then(r =>  window.location="./game.html")
-    });
+});
 
 
-pointsMessage.innerText=`${actualPlayer.username} you scored 0/0`;
+btnHamburgerMenu.addEventListener("click", ()=>{
+    hamburgerMenu.classList.toggle("menuMobile")});
+
+
+
+function initialSetup(){
+    let actualPlayer = JSON.parse(localStorage.getItem("actualPlayer"));
+    actualPlayer.actualScore = 0;
+    localStorage.setItem("actualPlayer", JSON.stringify(actualPlayer));
+    localStorage.setItem("actualQuestionNumber", "0");
+    btnSubmitRegion.disabled=true;
+    btnSubmitRegion.classList.add("btnSubmitAnswerDisabled");
+    pointsMessage.innerText=`${actualPlayer.username} you scored 0/0`;
+}
+
+
+
 
 // get countries by chosen region
 function  getRandomGameCountries(countries, region){
