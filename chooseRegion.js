@@ -36,6 +36,10 @@ btnSubmitRegion.addEventListener("click", ()=>{
         .then(json =>{
             getRandomGameCountries(json, region);})
         .then(r =>  window.location="./game.html")
+        .catch(err=>{
+            alert("Sorry we are not able to connect to DB please try later.");
+            console.log(Error + err);
+        })
 });
 
 
