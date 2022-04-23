@@ -6,11 +6,12 @@ const btnHamburgerMenu = document.getElementById("btnHamburgerMenu");
 const hamburgerMenu = document.getElementById("hamburgerMenu");
 
 
+let player ={};
+
 btnHamburgerMenu.addEventListener("click", ()=>{
     hamburgerMenu.classList.toggle("menuMobile")});
 
 
-let player ={};
 const playersLocalStorageArray = JSON.parse(localStorage.getItem("playersArray"));
 
 // login page and register page
