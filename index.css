@@ -230,7 +230,7 @@ li a, .regionCard, .result-aside, .infoArticle,.countryCard,
     box-shadow: 0 8px 8px -4px var(--shadow-color);
 }
 
- .regionCard, .infoArticle, .howToPlay-article{
+ .howToPlay-article{
      display: flex;
      flex-direction: column;
      justify-items: center;
@@ -253,6 +253,9 @@ li a, .regionCard, .result-aside, .infoArticle,.countryCard,
      justify-content: center;
      align-items: end;
      font-size: 1.4rem;
+     padding-top: 20px;
+     background-color: var(--card-bg-color);
+     color: var(--font-color-text);
  }
 
 
