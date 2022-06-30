@@ -17,8 +17,12 @@
 }
 
 body{
-    background-color: var(--secondary-bg-color);
+    background-color: var( --main-bg-color);
     color: var(--font-color-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     margin: 0;
 }
 
@@ -40,7 +44,7 @@ footer, header{
     background-color: var(--secondary-bg-color);
     color: var(--font-color-buttons);
     min-height: 50px;
-    min-width: 100vw;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -75,7 +79,7 @@ nav{
  main{
      background-color: var(--main-bg-color);
      min-height: 90vh;
-     width: 100vw;
+     width: 96vw;
      display: flex;
      flex-direction: column;
      justify-content: start;
@@ -104,6 +108,8 @@ nav{
     height: 30px;
     border-bottom: solid 1px var(--button-border-color);
 }
+
+
  section{
      display: flex;
      flex-direction: column;
@@ -300,6 +306,12 @@ li a, .regionCard, .result-aside, .infoArticle,.countryCard,
     height: auto;
 }
 
+.infoArticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .howToPlay-article{
     margin-top: 50px;
